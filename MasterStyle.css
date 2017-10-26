@@ -1,0 +1,312 @@
+﻿/* CSS Document */
+
+
+/* Welcome Page */
+#welcometitle{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	float: left;
+	font-family: abel;
+	font-size: 7em;
+	font-style: normal;
+	font-weight: 500;
+	color: #d9d9d9;
+}		
+
+#welcomebutton{
+	position: absolute;
+	top: 60%;
+	left: 20%;
+}
+				
+#welcomebutton a{
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+	padding-right:4em;
+	padding-left:4em;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: abel;
+	font-weight: 1000;
+	font-style: normal;
+	text-decoration: none;
+	border-radius: 35px;
+	background-color: #595959;
+	color: #d9d9d9;	
+}
+
+#welcomebutton a:hover{
+	background-color: #808080;
+}
+
+#welcomepicture{
+	height: 100%; 
+	width: 50%;  
+	position: absolute; 
+	right: 0%; 
+	top: 0%; 
+	bottom: 0%;
+}
+				
+/* Header Styles */
+
+
+header img{
+	float: left;
+	width: 101.45%;
+	height: 300px;
+	margin-left: -.75%;
+	margin-right: -.75%;
+	margin-top: -1%;
+}
+
+header h1{
+	color: white;
+	text-align: left;	
+	font-family: abel;
+	font-weight: 500;
+}
+
+/*#HomeTitle{
+	font-family: abel;
+	font-size: 250%;
+	color: #595959;
+}*/
+
+/* Menu Styles */
+
+
+.menu{
+	width: 100%;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	margin-top: auto;
+	float: left;
+}
+
+.menu li{
+	list-style: none;
+	margin: 2%;
+	background-color: #1a1a1a;
+}
+
+.menu a {
+	color: #595959;	
+	text-decoration: none;	
+	font-family: abel; 
+	font-style: normal; 
+	font-weight: 400;
+}
+
+.menu > ul > li {			
+	float: left;
+	display: inline-block;
+	position: relative;
+	font-size: 20px;			
+}
+
+.menu > ul > li > a {
+	padding-top: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: inline-block;	
+}
+
+.menu > ul > li:hover > a{
+	text-decoration: none;
+	color: #808080;
+	background-color: #1a1a1a;
+}
+
+/* Sub-Menu Styles */
+
+.menu li:hover .projectmenu{
+	z-index: 1;
+	opacity: 1;	
+}
+
+.projectmenu{
+	width: 125%;
+	padding: 0px;
+	position: absolute;
+	top: 100%;
+	left: 0px;	
+	z-index: -1;
+	opacity: 0;
+	border: thin solid black;
+}
+
+.projectmenu li{
+	display: block;
+	font-size: 15px;
+	background-color: #1a1a1a;
+	margin: 0px;
+	opacity: 0.9;
+					
+}
+
+.projectmenu a {
+	padding: 10%;
+	display: block;	
+	color: #595959;	
+	opacity: 0.9;
+}
+
+
+.projectmenu li:hover{
+	opacity: 1;	
+}
+
+.projectmenu li a:hover{
+	background: #595959;
+	color: white;
+	opacity: 1;
+							
+}
+
+/* Side Menu Styles */
+
+.menuwrap{
+	float: left;
+	margin-top: 10%;
+}
+
+.sidemenu ul{
+	list-style-type: none;	
+}
+
+.sidemenu ul li{
+	padding-top: 40%;
+	padding-bottom: 40%;
+	font-size: 25px;
+	font-family: abel;
+}
+
+.sidemenu ul li a{
+	text-decoration: none;
+	color: #595959;
+}
+
+.sidemenu ul li a:hover{
+	color: #808080;
+}
+
+/* Body Styles */
+
+body{
+	background-color: #1a1a1a;	
+}
+		
+body .content {
+	float: left;
+	position: relative;
+	left: 20%;
+	width: 60%;
+	margin-top: 7%;
+	padding: 7%;
+	background-color: white;
+	box-sizing: border-box;
+	box-shadow: 7px 7px 10px #595959;
+	border: 1.5px solid black;
+	font-family: abel;
+	font-weight: 500;
+	font-size: 150%;
+	opacity: 1;
+}
+
+.content img{
+	
+	width: 33%;
+	height: 66%;	
+	rotation: 270deg;
+}
+
+.content p{
+	color: black;	
+}
+
+.content h2{
+	color: red;
+}
+
+.subtitle{
+	color: 	#595959;
+	font-weight: 100;
+	font-size: 1.75em;
+}
+
+
+.bulletlist a{
+	text-decoration: none;
+	color: red;
+}
+
+.bulletlist a:hover{
+	color: #808080;
+}
+
+
+/* Footer Styles */
+
+footer {
+	margin-top: 7%;
+	margin-bottom: 0%;
+	margin-left: -.75%;
+	margin-right: -.75%;
+	position: relative;
+	bottom: 0%;
+	float: left;
+	clear: left;
+	right: .025%;
+	height: 20px;
+	width: 101.45%;
+	font-family: abel;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	background-color: #595959;	
+	opacity: 0.5; 
+}
+
+footer p{
+	opacity: 1.0;	
+}
+
+/* Embed Styles */
+
+.embed{
+	text-align: center;	
+}
+
+/* Contact Styles */
+
+#emailaddress{
+	text-align:center;
+	font-family: abel;
+	font-size: 1.5em;
+}
+
+#emailaddress a{
+	text-decoration:none;
+	color: black;
+}
+
+#emailaddress a:hover{
+	color: #595959;
+}
+
+#phonenumber{
+	text-align:center;
+	text-decoration:none;
+	font-family: abel;
+	font-size: 1.5em;
+	color: black;
+}
+
+/* Banner Styles */
+
+#banner img{
+	height: 23em;
+}
