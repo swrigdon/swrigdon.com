@@ -401,6 +401,15 @@ html,body{
     color: purple;
 }
 
+.linkedinLogo{
+    font-size: 5em;
+    color: black;
+}
+
+.linkedinLogo:hover{
+    color: purple;
+}
+
 /*****Mobile Styles*****/
 @media only screen and (max-width: 1024px)
 {
