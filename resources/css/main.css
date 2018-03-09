@@ -305,6 +305,23 @@ html,body{
     font-size: 2em;
 }
 
+.email{
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 2em;
+}
+
+.email:hover{
+    color: purple;
+    text-decoration: none;
+}
+
+.phoneNumber{
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 2em;
+}
+
 .aboutMePhoto{
     float: left;
     vertical-align: middle;
@@ -325,7 +342,7 @@ html,body{
 
 .OCLogo{
     float: left;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 5%;
     height: 15%;
     width: 10%;
@@ -334,7 +351,7 @@ html,body{
 .WDPRLogo{
     clear: left;
     float: left;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 1%;
     height: 30%;
     width: 20%;
@@ -373,6 +390,15 @@ html,body{
     -webkit-animation-delay: 0.25s;
     -moz-animation-duration: 2.5s;
     -moz-animation-delay: 0.25s;
+}
+
+.githubLogo{
+    font-size: 5em;
+    color: black;
+}
+
+.githubLogo:hover{
+    color: purple;
 }
 
 /*****Mobile Styles*****/
