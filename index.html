@@ -36,13 +36,13 @@
                 <nav id="headerMenu">
                     <ul>
                         <li id="headerMenu1" class="animated fadeIn">
-                            <a href="#content" onclick="aboutMeContentTransition()">About Me</a>
+                            <a href="#content" onclick="contentTransition('aboutMe')">About Me</a>
                         </li>
                         <li id="headerMenu2" class="animated fadeIn">
-                            <a href="#content" onclick="workExperienceContentTransition()">Work Experience</a>
+                            <a href="#content" onclick="contentTransition('workExperience')">Work Experience</a>
                         </li>
                         <li id="headerMenu3" class="animated fadeIn">
-                            <a href="#content" onclick="schoolingContentTransition()">My Schooling</a>
+                            <a href="#content" onclick="contentTransition('schooling')">My Schooling</a>
                         </li>
                         <!--<li id="headerMenu4" class="animated fadeIn">
                                 <a href="#content" onclick="projectsContentTransition()">Projects</a>
@@ -51,7 +51,7 @@
                             <a href="./resources/docs/Stephen_Rigdon_Resume.pdf">My Resume</a>
                         </li>
                         <li id="headerMenu5" class="animated fadeIn">
-                            <a href="#content" onclick="getInTouchContentTransition()">Get In Touch!</a>
+                            <a href="#content" onclick="contentTransition('getInTouch')">Get In Touch!</a>
                         </li>
                     </ul>
                 </nav>
@@ -60,13 +60,13 @@
         <div class="floatingMenuDesktop">
             <ul>
                     <li id="headerMenu1" class="animated fadeIn">
-                        <a href="#content" onclick="aboutMeContentTransition()">About Me</a>
+                        <a href="#content" onclick="contentTransition('aboutMe')">About Me</a>
                     </li>
                     <li id="headerMenu2" class="animated fadeIn">
-                        <a href="#content" onclick="workExperienceContentTransition()">Work Experience</a>
+                        <a href="#content" onclick="contentTransition('workExperience')">Work Experience</a>
                     </li>
                     <li id="headerMenu3" class="animated fadeIn">
-                        <a href="#content" onclick="schoolingContentTransition()">Schooling</a>
+                        <a href="#content" onclick="contentTransition('schooling')">Schooling</a>
                     </li>
                     <!--<li id="headerMenu4" class="animated fadeIn">
                             <a href="#content" onclick="projectsContentTransition()">Projects</a>
@@ -75,7 +75,7 @@
                         <a href="./resources/docs/Stephen_Rigdon_Resume.pdf">My Resume</a>
                     </li>
                     <li id="headerMenu5" class="animated fadeIn">
-                        <a href="#content" onclick="getInTouchContentTransition()">Get In Touch!</a>
+                        <a href="#content" onclick="contentTransition('getInTouch')">Get In Touch!</a>
                     </li>
             </ul>
             <h3>Stephen William Rigdon</h3>
@@ -95,19 +95,19 @@
             <h2>Menu</h2>
             <ul>
                 <li>
-                    <a href="#content" onclick="aboutMeContentTransition()">About Me</a>
+                    <a href="#content" onclick="contentTransition('aboutMe')">About Me</a>
                 </li>
                 <li>
-                    <a href="#content" onclick="workExperienceContentTransition()">Work Experience</a>
+                    <a href="#content" onclick="contentTransition('workExperienceMobile')">Work Experience</a>
                 </li>
-                <!--<li>
-                    <a href="#content" onclick="schoolingContentTransition()">School and Personal Projects</a>
-                </li>-->
+                <li>
+                    <a href="#content" onclick="contentTransition('schooling')">School and Personal Projects</a>
+                </li>
                 <li>
                     <a href="./resources/docs/Stephen_Rigdon_Resume.pdf">My Resume</a>
                 </li>
                 <li>
-                    <a href="#content" onclick="getInTouchContentTransition()">Get In Touch!</a>
+                    <a href="#content" onclick="contentTransition('getInTouchMobile')">Get In Touch!</a>
                 </li>
             </ul>
         </div>
@@ -122,7 +122,77 @@
         <script src="https://use.fontawesome.com/d874798ef8.js"></script>
 
         <script>
-            var div;
+            var div, panel;
+
+            var aboutMe = '<div id="aboutMe" class="animated fadeIn">\
+            <img class="aboutMePhoto" src="./resources/images/AboutMePhoto.JPG" alt="About Me Photo"/><h2 class="bodyHeader">\
+            A Little Bit About Myself</h2><div class="textBox">\
+            <p>Hi! I\'m Stephen Rigdon, and I\'m a 22 year old software developer based in Orlando, Florida. I enjoy creating things with code, especially games, and I love the mathematics and theory behind 3D computer graphics. \
+            Please have a look around my website to learn more about me and feel free to reach out! \
+            <br /><br />Thanks for visiting!</p></div></div>'
+
+            var workExperience = '<div id="workExperience" class="animated fadeIn">\
+            <h2 class="bodyHeader">Where I\'ve Worked</h2><div class="textBox">\
+            <div id="orangecounty">\
+            <img class="OCLogo" src="./resources/images/OCGovBW.png" alt="OC Logo"/>\
+            <h3>Orange County Government <br />(September 2015 - April 2016)</h3><br />\
+            <p>I worked as an intern for the Orange County Florida Government\'s website content team. My main responsibilities include making routine updates to the county website and publishing news articles from the mayor\'s press team.</p>\
+            </div>\
+            <div id="disney">\
+            <img class="WDPRLogo" src="./resources/images/WDPRLogo.jpg" alt="WDPR Logo"/>\
+            <h3>Disney Parks and Resorts <br />(June 2017 - June 2018)</h3><br /><p>At Disney, I was a Systems Integration and Development Intern for the Disney Reservation Center. I was tasked with being the lead system architect for a new employee onboarding system. \
+            My daily tasks included meeting with clients to discuss needs, working with SharePoint 2013 and Nintex Workflows, creating SQL tables and queries, and reading through HTML, CSS, and JQuery.</p></div></div>\
+            </div>'
+
+            var workExperienceMobile = '<div id="workExperience" class="animated fadeIn">\
+            <h2 class="bodyHeader">Where I\'ve Worked</h2><div class="textBox">\
+            <img class="OCLogoMobile" src="./resources/images/OCGovBW.png" alt="OC Logo"/><br /><br />\
+            <h3>Orange County Government (September 2015 - April 2016)</h3><br /><p>I worked as an intern for the Orange County Florida Government\'s website content team. My main responsibilities include making routine updates to the county website and publishing news articles from the mayor\'s press team.</p>\
+            <img class="WDPRLogoMobile" src="./resources/images/WDPRLogo.jpg" alt="WDPR Logo"/><br /><br />\
+            <h3>Disney Parks and Resorts (June 2017 - June 2018)</h3><br /><p>At Disney, I was a Systems Integration Intern for the Disney Reservation Center. I was tasked with being the lead system architect for a new employee onboarding system. My daily tasks included meeting with clients to discuss needs, working with SharePoint 2013 and Nintex Workflows, creating SQL tables and queries, and reading through HTML, CSS, and JQuery.</p></div></div>'
+
+            var schooling = '<div id="schooling" class="animated fadeIn">\
+            <img class="UCFLogo" src="./resources/images/UCFLogo.png" alt="WDPR Logo"/>\
+            <h2 class="bodyHeader">My Schooling</h2><div class="textBox">\
+            <p>I am currently a senior at the University of Central Florida pursuing a B.S. in Computer Science, with an expected graduation date of May 2019.\
+            I am the former vice president and president of UCF\'s Association for Computing Machinery chapter.</p>\
+            </div></div>'
+
+            var getInTouch = '<div id="getInTouch" class="animated fadeIn">\
+            <img class="aboutMePhoto" src="./resources/images/GetInTouchPicture.JPG" alt="About Me Photo"/>\
+            <h2 class="bodyHeader">Get In Touch!</h2><div class="textBox">\
+            <p>I\'m always up for a chat! Feel free to reach out to me at any time through one of the channels listed below.</p><br />\
+            <h3 id="contactInfo">\
+            <div>LinkedIn</div>\
+            <div>GitHub</div>\
+            <div>Twitter</div>\
+            <div>Email</div>\
+            <div>Phone</div>\
+            </h3>\
+            <div id="contactLinks">\
+            <a class="linkedinLogo" href="https://www.linkedin.com/in/stephen-rigdon-309309a6/"><i class="fa fa-linkedin"></i></a>\
+            <a class="githubLogo" href="http://www.github.com/swrigdon"><i class="fa fa-github-square"></i></a>\
+            <a class="twitterLogo" href="http://www.twitter.com/swrigdon"><i class="fa fa-twitter"></i></a>\
+            <a href="mailto:swrigdon@gmail.com" class="email"><i class="fa fa-envelope"></i></a>\
+            <p class="phoneNumber">(352) 408-3498</p></div></div>\
+            </div>'
+
+            var getInTouchMobile = '<div id="getInTouch" class="animated fadeIn">\
+            <img class="aboutMePhoto" src="./resources/images/GetInTouchPicture.JPG" alt="About Me Photo"/>\
+            <h2 class="bodyHeader">Get In Touch!</h2><div class="textBox">\
+            <p>I\'m always up for a chat! Feel free to reach out to me at any time through one of the channels listed below.</p><br />\
+            <h3 id="contactInfo">\
+            <div>LinkedIn</div>\
+            <br /><a class="linkedinLogoMobile" href="https://www.linkedin.com/in/stephen-rigdon-309309a6/"><i class="fa fa-linkedin"></i></a>\
+            <br /><div>GitHub</div>\
+            <br /><a class="githubLogoMobile" href="http://www.github.com/swrigdon"><i class="fa fa-github-square"></i></a>\
+            <br /><div>Twitter</div>\
+            <br /><a class="twitterLogoMobile" href="http://www.twitter.com/swrigdon"><i class="fa fa-twitter"></i></a>\
+            <br /><div>Email</div>\
+            <br /><a href="mailto:swrigdon@gmail.com" class="emailMobile"><i class="fa fa-envelope"></i></a>\
+            <br /><div>Phone</div>\
+            <p class="phoneNumber">(352) 408-3498</p></div></div>\
+            </div>'
 
             function openNav(){
                 if(window.matchMedia('(max-width: 1024px)').matches)
@@ -146,34 +216,44 @@
                 }, 1000);
             }
 
-            function aboutMeContentTransition(){
-               $('#content').css("display", "inherit");
-               $('#content').html('<div id="aboutMe" class="animated fadeIn"><img class="aboutMePhoto" src="./resources/images/AboutMePhoto.JPG" alt="About Me Photo"/><h2 class="bodyHeader">A Little Bit About Myself</h2><div class="textBox"><p>Hi! I\'m Stephen Rigdon, and I\'m a 21 year old software developer based in Orlando, Florida. I enjoy creating things with code, especially games, and I love the mathematics and theory behind 3D computer graphics. Please have a look around my website to learn more about me and feel free to reach out! <br /><br />Thanks for visiting!</p></div></div>')
-               autoScroll('#content');
-            }
-
-            function workExperienceContentTransition(){
-                $('#content').css("display", "inherit");
-                $('#content').html('<div id="workExperience" class="animated fadeIn"><img class="OCLogo" src="./resources/images/OCGovBW.png" alt="OC Logo"/><img class="WDPRLogo" src="./resources/images/WDPRLogo.jpg" alt="WDPR Logo"/><h2 class="bodyHeader">Where I\'ve Worked</h2><div class="textBox"><h3>Orange County Government (September 2015 - April 2016)</h3><br /><p>I worked as an intern for the Orange County Florida Government\'s website content team. My main responsibilities include making routine updates to the county website and publishing news articles from the mayor\'s press team.</p><h3>Disney Parks and Resorts (June 2017 - June 2018)</h3><br /><p>At Disney, I am a Systems Integration Intern for the Disney Reservation Center. I\'ve been tasked with being the lead system architect for a new employee onboarding system. My daily tasks include meeting with clients to discuss needs, working with SharePoint 2013 and Nintex Workflows, creating SQL tables and queries, and reading through HTML, CSS, and JQuery.</p></div></div>')
-                autoScroll('#content');
-            }
-
-            function schoolingContentTransition(){
-                $('#content').css("display", "inherit");
-                $('#content').html('<div id="schooling" class="animated fadeIn"><img class="UCFLogo" src="./resources/images/UCFLogo.png" alt="WDPR Logo"/><h2 class="bodyHeader">My Schooling</h2><div class="textBox"><p>I am currently a senior at the University of Central Florida pursuing a B.S. in Computer Science, with an expected graduation date of May 2019. I currently have a 3.02 GPA and I am the president of our school\'s ACM chapter.</p></div></div>')
-                autoScroll('#content');
-            }
-
             /*function projectsContentTransition(){
                 $('#content').css("display", "inherit");
                 $('#content').html('<div id="projects" class="animated fadeIn"><img class="aboutMePhoto" src="./resources/images/AboutMePhoto.JPG" alt="About Me Photo"/><h2 class="bodyHeader">My Projects</h2><div class="textBox"><p>Hello! My name is Stephen Rigdon, and I am a 21 year old software developer based in Orlando, FLorida.</p></div></div>')
                 autoScroll('#content');
             }*/
 
-            function getInTouchContentTransition(){
+            function contentTransition(panel){
                 $('#content').css("display", "inherit");
-                $('#content').html('<div id="getInTouch" class="animated fadeIn"><img class="aboutMePhoto" src="./resources/images/GetInTouchPicture.JPG" alt="About Me Photo"/><h2 class="bodyHeader">Get In Touch!</h2><div class="textBox"><p>I\'m always up for a chat! Feel free to reach out to me at any time through one of the channels listed below.</p><br /><h3>LinkedIn:</h3><a class="linkedinLogo" href="https://www.linkedin.com/in/stephen-rigdon-309309a6/"><i class="fa fa-linkedin"></i></a><br /><h3>GitHub:</h3><a class="githubLogo" href="http://www.github.com/swrigdon"><i class="fa fa-github-square"></i></a><br /><h3>Twitter:</h3><a class="twitterLogo" href="http://www.twitter.com/swrigdon"><i class="fa fa-twitter"></i></a><br /><h3>My Email:</h3><a href="mailto:swrigdon@gmail.com" class="email">swrigdon@gmail.com</a><br /><br /><h3>My Phone Number:</h3><p class="phoneNumber">(352) 408-3498</p><br /></div></div>')
-                autoScroll('#content');
+
+                switch(panel){
+
+                    case 'aboutMe':
+                        $('#content').html(aboutMe);
+                        autoScroll('#content');
+                    break;
+                    case 'workExperience': 
+                        $('#content').html(workExperience);
+                        autoScroll('#content');
+                    break;
+                    case 'schooling':
+                        $('#content').html(schooling);
+                        autoScroll('#content');
+                    break;
+                    case 'getInTouch':
+                        $('#content').html(getInTouch);
+                        autoScroll('#content');
+                    break;
+                    case 'getInTouchMobile':
+                        $('#content').html(getInTouchMobile);
+                        autoScroll('#content');
+                    break;
+                    case 'workExperienceMobile':
+                        $('#content').html(workExperienceMobile);
+                        autoScroll('#content');
+                } 
+
+             //   $('#content').html('<div id="getInTouch" class="animated fadeIn"><img class="aboutMePhoto" src="./resources/images/GetInTouchPicture.JPG" alt="About Me Photo"/><h2 class="bodyHeader">Get In Touch!</h2><div class="textBox"><p>I\'m always up for a chat! Feel free to reach out to me at any time through one of the channels listed below.</p><br /><h3>LinkedIn:</h3><a class="linkedinLogo" href="https://www.linkedin.com/in/stephen-rigdon-309309a6/"><i class="fa fa-linkedin"></i></a><br /><h3>GitHub:</h3><a class="githubLogo" href="http://www.github.com/swrigdon"><i class="fa fa-github-square"></i></a><br /><h3>Twitter:</h3><a class="twitterLogo" href="http://www.twitter.com/swrigdon"><i class="fa fa-twitter"></i></a><br /><h3>My Email:</h3><a href="mailto:swrigdon@gmail.com" class="email">swrigdon@gmail.com</a><br /><br /><h3>My Phone Number:</h3><p class="phoneNumber">(352) 408-3498</p><br /></div></div>')
+             //   autoScroll('#content');
             }
 
             $(document).ready(function() {

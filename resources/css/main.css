@@ -306,9 +306,17 @@ html,body{
 }
 
 .email{
+    padding-left: 11.75%;
     font-family: 'Work Sans', sans-serif;
     color: black;
-    font-size: 2em;
+    font-size: 5em;
+}
+
+.emailMobile{
+    padding-left: 5%;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 5em;
 }
 
 .email:hover{
@@ -320,6 +328,17 @@ html,body{
     font-family: 'Work Sans', sans-serif;
     color: black;
     font-size: 2em;
+}
+
+
+#contactInfo > div{
+    padding-right: 7%;
+    display: inline;
+}
+
+#contactLinks > p{
+    display: inline;
+    padding-left: 6.5%;
 }
 
 .aboutMePhoto{
@@ -341,20 +360,76 @@ html,body{
 }
 
 .OCLogo{
-    float: left;
-    margin-top: 20%;
-    margin-left: 5%;
-    height: 15%;
+    height: 25%;
     width: 10%;
+    position: absolute;
+    left: 5%;
 }
 
 .WDPRLogo{
+    height: 25%;
+    width: 20%;
+    position: absolute;
+    left: 0%;
+}
+
+.OCLogoMobile{
+    float: left;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    height: 80%;
+    width: 70%;
+}
+
+.WDPRLogoMobile{
     clear: left;
     float: left;
     margin-top: 7%;
     margin-left: 1%;
-    height: 30%;
-    width: 20%;
+    margin-bottom: 10%;
+    height: 80%;
+    width: 70%;
+}
+
+#orangecounty{
+    margin-bottom: 7%;
+}
+
+#orangecounty > img{
+    display: inline;
+}
+
+#orangecounty > h3{
+    display: inline;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.5em;
+}
+
+#orangecounty > p{
+    display: inline;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.5em;
+}
+
+#disney{
+    margin-bottom: 7%;
+}
+
+#disney > img{
+    display: inline;
+}
+
+#disney > p{
+    display: inline;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.5em;
+}
+
+#disney > h3{
+    display: inline;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.5em;
 }
 
 #aboutMe{
@@ -393,6 +468,13 @@ html,body{
 }
 
 .githubLogo{
+    padding-left: 16%;
+    font-size: 5em;
+    color: black;
+}
+
+.githubLogoMobile{
+    padding-left: 5%;
     font-size: 5em;
     color: black;
 }
@@ -402,6 +484,13 @@ html,body{
 }
 
 .linkedinLogo{
+    padding-left: 3%;
+    font-size: 5em;
+    color: black;
+}
+
+.linkedinLogoMobile{
+    padding-left: 5%;
     font-size: 5em;
     color: black;
 }
@@ -411,6 +500,13 @@ html,body{
 }
 
 .twitterLogo{
+    padding-left: 13%;
+    font-size: 5em;
+    color: black;
+}
+
+.twitterLogoMobile{
+    padding-left: 5%;
     font-size: 5em;
     color: black;
 }
