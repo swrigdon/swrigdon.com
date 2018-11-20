@@ -306,7 +306,7 @@ html,body{
 }
 
 .email{
-    padding-left: 11.75%;
+    padding-left: 7%;
     font-family: 'Work Sans', sans-serif;
     color: black;
     font-size: 5em;
@@ -468,7 +468,7 @@ html,body{
 }
 
 .githubLogo{
-    padding-left: 16%;
+    padding-left: 7%;
     font-size: 5em;
     color: black;
 }
@@ -484,7 +484,7 @@ html,body{
 }
 
 .linkedinLogo{
-    padding-left: 3%;
+    padding-left: 7%;
     font-size: 5em;
     color: black;
 }
@@ -500,7 +500,7 @@ html,body{
 }
 
 .twitterLogo{
-    padding-left: 13%;
+    padding-left: 7%;
     font-size: 5em;
     color: black;
 }
