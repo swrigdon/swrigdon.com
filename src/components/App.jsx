@@ -1,11 +1,14 @@
-import TopBar from "./topBar";
+import React, {useState}  from "react";
+import TopBar             from "./topBar";
+import ContentPane        from "./contentPane"
 import '../css/App.css';
 
 function App() {
+
   return (
     <div className="App container-fluid p-0">
       <TopBar/>
-      <h1>Hello, World!</h1>
+      <ContentPane/>
     </div>
   );
 }

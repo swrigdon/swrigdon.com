@@ -1,0 +1,32 @@
+.headerBackground{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+}
+
+.headerContent > h2{
+
+    text-align: center;
+    width: 100%;
+    opacity: 1.0;
+    left: 0px;
+    font-size: 5em;
+    color: black;
+    position: absolute;
+    top: 35%;
+    vertical-align: middle;
+}
+
+.headerContent > h4{
+    
+    text-align: center;
+    font-size: 3.5em;
+    opacity: 1.0;
+    width: 100%;
+    left: 0px;
+    color: black;
+    position: absolute;
+    bottom: 25%;
+    vertical-align: middle;
+}
