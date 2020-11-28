@@ -1,32 +1,26 @@
-.headerBackground{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-    width: 100%;
+.HomeContainer{
+
     height: 100%;
-    opacity: 0.75;
+    min-height: 100%;
+    width: 100%; 
 }
 
-.headerContent > h2{
+.HomeBackground{
 
-    text-align: center;
+    height: 100%;
+    min-height: 100%;
     width: 100%;
-    opacity: 1.0;
-    left: 0px;
-    font-size: 5em;
-    color: black;
-    position: absolute;
-    top: 35%;
-    vertical-align: middle;
+    background-image: url("../img/welcome.jpg");
+    background-size: cover;
+    opacity: 0.5;
 }
 
-.headerContent > h4{
-    
-    text-align: center;
-    font-size: 3.5em;
-    opacity: 1.0;
-    width: 100%;
-    left: 0px;
-    color: black;
+.HomeTitle{
+
+    font-size: 5.5em;
     position: absolute;
-    bottom: 25%;
-    vertical-align: middle;
+    top: 30%;
+    font-family: 'Ubuntu', sans-serif;
 }
