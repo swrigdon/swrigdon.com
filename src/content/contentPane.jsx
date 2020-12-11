@@ -1,23 +1,24 @@
-import React from "react";
-import Home from "./home";
+import React    from "react";
 import {
 
-    BrowserRouter as Router,
     Switch,
     Route
-} from "react-router-dom";
+}               from "react-router-dom";
+import Home     from "./home";
+import AboutMe  from "./aboutMe";
 import "../css/content.css";
 
 const ContentPane = () =>{
 
     return(
-        <Router>
-            <Switch>
-                <Route path="/">
-                    <Home/>
-                </Route>
-            </Switch>
-        </Router>
+        <Switch>
+            <Route path = "/aboutMe">
+                <AboutMe/>
+            </Route>
+            <Route path = "/">
+                <Home/>
+            </Route>
+        </Switch>
     );
 }
 

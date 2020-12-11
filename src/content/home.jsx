@@ -1,11 +1,12 @@
 import React from "react";
 import { Box, Center } from "@chakra-ui/react";
+import "../css/content.css";
 import "../css/home.css";
 
 const Home = () =>{
 
     return(
-        <div className = "HomeContainer">
+        <div className = "Content">
             <Box
                 w           = "100%"
                 h           = "100%"
