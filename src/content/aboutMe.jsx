@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Center, Grid, GridItem } from "@chakra-ui/react";
 import differenceInCalendarYears from "date-fns/differenceInCalendarYears";
+import AboutMePhoto from "../img/aboutMe.jpg";
 import "../css/content.css";
 
 const calculateAge = () =>{
@@ -26,7 +27,9 @@ const AboutMe = () =>{
                 gap = {4}
             >
                 <GridItem colSpan = {1}>
-
+                    <Center>
+                        <img src = {AboutMePhoto} alt = "About Me"/>
+                    </Center>
                 </GridItem>
                 <GridItem colSpan = {4}>
                     Howdy! 
