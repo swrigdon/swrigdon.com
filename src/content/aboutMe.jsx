@@ -80,6 +80,7 @@ const AboutMe = () =>{
                                 <li>Java</li>
                                 <li>Powershell</li>
                                 <li>Python</li>
+                                <li>SQL</li>
                             </ul>
                         </GridItem>
                     </Grid>
