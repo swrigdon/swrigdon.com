@@ -1,4 +1,4 @@
-import React from "react";
+import React                    from "react";
 import { Box, Link }            from "@chakra-ui/react";
 import { Link as RouterLink }   from "react-router-dom";
 
@@ -12,8 +12,14 @@ const TopBar = () =>{
             pl      = {10}
             color   = "white"
             as      = "h1"
+            id      = "topBar"
         >
-            Stephen William Rigdon
+            <Link
+                as = {RouterLink}
+                to = "/"
+            >
+                Stephen William Rigdon
+            </Link>
             <Link 
                 ml  = {20}
                 as  = {RouterLink}

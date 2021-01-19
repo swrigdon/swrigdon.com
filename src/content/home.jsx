@@ -3,23 +3,41 @@ import { Box, Center } from "@chakra-ui/react";
 import "../css/content.css";
 import "../css/home.css";
 
-const Home = () =>{
+export default class Home extends React.Component{
 
-    return(
-        <div className = "Content">
-            <Box
-                w           = "100%"
-                h           = "100%"
-                bg          = "purple"
-                minH        = "100%"
-                className   = "HomeBackground"
-            >
-            </Box>
-            <Center>
-                <h1 className = "HomeTitle">Stephen William Rigdon</h1>
-            </Center>
-        </div>
-    );
+    constructor(props){
+
+        super(props);
+        this.state = {
+
+            contentHeight : window.innerHeight
+        };
+    }
+
+    componentDidMount(){
+
+        this.setState({
+
+            contentHeight : window.innerHeight - document.getElementById('topBar').clientHeight
+        });
+    }
+
+    render(){
+
+        return(
+            <div className = "Content">
+                <Box
+                    w           = "100%"
+                    h           = {this.state.contentHeight}
+                    bg          = "purple"
+                    minH        = {this.state.contentHeight}
+                    className   = "HomeBackground"
+                >
+                </Box>
+                <Center>
+                    <h1 className = "HomeTitle">Stephen William Rigdon</h1>
+                </Center>
+            </div>
+        );
+    }
 }
-
-export default Home;

@@ -8,6 +8,7 @@ import Home         from "./home";
 import AboutMe      from "./aboutMe";
 import Career       from "./career";
 import Education    from "./education";
+import ProjectHome  from "./projects/home";
 import "../css/content.css";
 
 const ContentPane = () =>{
@@ -23,11 +24,19 @@ const ContentPane = () =>{
             <Route path = "/career">
                 <Career/>
             </Route>
+            <Route path = "/projects">
+                <Switch>
+                    <Route path = "/">
+                        <ProjectHome/>
+                    </Route>
+                </Switch>
+            </Route>
             <Route path = "/">
                 <Home/>
             </Route>
-        </Switch>
+        </Switch> 
     );
 }
 
 export default ContentPane;
+ 

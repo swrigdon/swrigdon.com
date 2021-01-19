@@ -1,10 +1,10 @@
 import React from "react";
-import { Box, Center, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Center, Grid, GridItem, ListItem, UnorderedList } from "@chakra-ui/react";
 import differenceInYears from "date-fns/differenceInYears";
 import AboutMePhoto from "../img/aboutMe.jpg";
 import "../css/content.css";
 
-const calculateAge = () =>{
+const calulateAge = () =>{
 
     const now       = Date.now();
     const birthDate = new Date(1996, 8, 17);
@@ -35,7 +35,7 @@ const AboutMe = () =>{
                     <h3 style={{fontSize: "2.25em"}}>Howdy!</h3> 
                     <br />
                     <br />
-                    My name is Stephen. I'm a {calculateAge()} year-old software developer currently working for The Walt Disney Company.
+                    My name is Stephen. I'm a {calulateAge()} year-old software developer currently working for The Walt Disney Company.
                     I graduated from the University of Central Florida with my Bachelor's of Science in Computer Science in 2020. At Disney, I am responsible for developing
                     full-stack web applications to support Disney Sales and Travel Operations at the Disney Reservation Center. Outside of work, I 
                     am extremely passionate about computer graphics, particularly hardware and software rendering, as well as programming physics. When I'm not coding I enjoy hiking, video games, American football,
@@ -66,26 +66,24 @@ const AboutMe = () =>{
                      >
                         <GridItem colSpan = {2}>
                             <strong>Proficient In:</strong>
-                            <ul>
-                                <li>JavaScript/TypeScript</li>
-                                <li>HTML</li>
-                                <li>CSS/SCSS</li>
-                            </ul>
+                            <UnorderedList>
+                                <ListItem>JavaScript/TypeScript</ListItem>
+                                <ListItem>HTML</ListItem>
+                                <ListItem>CSS/SCSS</ListItem>
+                            </UnorderedList>
                         </GridItem>
                         <GridItem colSpan = {2}>
                             <strong>Familiar With:</strong>
-                            <ul>
-                                <li>C</li>
-                                <li>C++</li>
-                                <li>Java</li>
-                                <li>Powershell</li>
-                                <li>Python</li>
-                                <li>SQL</li>
-                            </ul>
+                            <UnorderedList>
+                                <ListItem>C</ListItem>
+                                <ListItem>C++</ListItem>
+                                <ListItem>Java</ListItem>
+                                <ListItem>Powershell</ListItem>
+                                <ListItem>Python</ListItem>
+                                <ListItem>SQL</ListItem>
+                            </UnorderedList>
                         </GridItem>
                     </Grid>
-                    <br />
-                    <br />
                     <h4 style = {{fontSize: "1.5em"}}>Frameworks, Libraries, and Tools</h4>
                     <hr />
                     <br />
@@ -94,38 +92,39 @@ const AboutMe = () =>{
                         gap = {4}
                      >
                         <GridItem colSpan = {1}>
-                            <ul>
-                                <li>Jenkins</li>
-                                <li>Git</li>
-                                <li>GitHub</li>
-                                <li>GitLab CI</li>
-                            </ul>
+                            <UnorderedList>
+                                <ListItem>Jenkins</ListItem>
+                                <ListItem>Git</ListItem>
+                                <ListItem>GitHub</ListItem>
+                                <ListItem>GitLab CI</ListItem>
+                                <ListItem>OAuth/OIDC</ListItem>
+                            </UnorderedList>
                         </GridItem>
                         <GridItem colSpan = {1}>
-                            <ul>
-                                <li>Babel</li>
-                                <li>Webpack</li>
-                                <li>ESLint</li>
-                                <li>ReactJS</li>
-                            </ul>
+                            <UnorderedList>
+                                <ListItem>Babel</ListItem>
+                                <ListItem>Webpack</ListItem>
+                                <ListItem>ESLint</ListItem>
+                                <ListItem>ReactJS</ListItem>
+                                <ListItem>React Router</ListItem>
+                            </UnorderedList>
                         </GridItem>
                         <GridItem colSpan = {1}>
-                            <ul>
-                                <li>React Router</li>
-                                <li>date-fns</li>
-                                <li>Bootstrap</li>
-                                <li>AWS EC2</li>
-                                <li>OAuth/OIDC</li>
-                            </ul>
+                            <UnorderedList>
+                                <ListItem>date-fns</ListItem>
+                                <ListItem>Bootstrap</ListItem>
+                                <ListItem>Jest</ListItem>
+                                <ListItem>NodeJS</ListItem>
+                                <ListItem>ExpressJS</ListItem>
+                            </UnorderedList>
                         </GridItem>
                         <GridItem colSpan = {1}>
-                            <ul>
-                                <li>AWS Aurora DB</li>
-                                <li>NodeJS</li>
-                                <li>ExpressJS</li>
-                                <li>Websockets</li>
-                                <li>GraphQL</li>
-                            </ul>
+                            <UnorderedList>
+                                <ListItem>AWS EC2</ListItem>
+                                <ListItem>AWS Aurora DB</ListItem>
+                                <ListItem>Websockets</ListItem>
+                                <ListItem>GraphQL</ListItem>
+                            </UnorderedList>
                         </GridItem>
                     </Grid>
                 </GridItem>

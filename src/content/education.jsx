@@ -16,14 +16,24 @@ const Education = () =>{
                 templateColumns = "repeat(5, 1fr)"
                 gap = {4}
             >
-                <GridItem colSpan = {1}>
-                <Center>
-                    <img src = {UCFLogo} alt = "UCF"/>
-                </Center>
-                </GridItem>
+                <GridItem colSpan = {1}></GridItem>
                 <GridItem colSpan = {4}>
                     <h3 style={{fontSize: "2.25em"}}>My Education</h3> 
-                    <br />
+                </GridItem>
+            </Grid>
+            <Grid
+                templateColumns = "repeat(5, 1fr)"
+                gap = {4}
+            >
+                <GridItem colSpan = {1}>
+                    <Center>
+                        <img src = {UCFLogo} alt = "UCF"/>
+                    </Center>
+                </GridItem>
+                <GridItem 
+                    colSpan = {4}
+                    marginTop = {10}
+                >
                     <strong>B.S. Computer Science - University of Central Florida (August 2020)</strong>
                     <hr />
                     <br />
