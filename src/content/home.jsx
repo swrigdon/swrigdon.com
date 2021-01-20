@@ -25,7 +25,10 @@ export default class Home extends React.Component{
     render(){
 
         return(
-            <div className = "Content">
+            <div 
+                className   = "Content"
+                style       = {{height : this.state.contentHeight, minHeight : this.state.contentHeight}}
+            >
                 <Box
                     w           = "100%"
                     h           = {this.state.contentHeight}
