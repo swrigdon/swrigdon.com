@@ -1,7 +1,5 @@
 import React from "react";
 import { Box, Center, Grid, GridItem } from "@chakra-ui/react";
-import OCLogo from "../../img/ocGovLogo.png";
-import DisneyLogo from "../../img/dpep.jpg";
 
 const ProjectHome = () =>{
 

@@ -88,9 +88,15 @@ const Career = () =>{
                     <strong>The Walt Disney Company - System Integration Intern (June 2017 - June 2018)</strong>
                     <hr />
                     <br />
-                    I was a student at the University of Central Florida from 2014 to 2020, pursuing and earning my Bachelor's of Science in
-                    Computer Science. During my time there, I was vice president and president of the UCF chapter of the
-                    Association for Computing Machinery, and I was also involved with the UCF Tech Knights organization as well. 
+                    While I was a System Integration Intern, my role was to work with other interns, as well as members of the Disney Travel Operations Shared Services team to create a new, automated system
+                    to track Personnel Action Notices (PANs). This system coordinated the efforts of half a dozen different teams.
+                    <br />
+                    <br />
+                    Some of my work on the project is listed below
+                    <UnorderedList>
+                        <ListItem>Developed several portions of the UI using HTML, CSS, vanilla Javascript, and jQuery</ListItem>
+                        <ListItem>Created several of the Nintex Workflow 2013 workflows that handled the automated logic to facilitate moving the PANs from team to team, as well as making sure that each team completed their portion of the PAN process in a timely manner</ListItem>
+                    </UnorderedList>
                 </GridItem>
             </Grid>
             <Grid
@@ -98,7 +104,7 @@ const Career = () =>{
                 gap = {4}
                 marginTop = {5}
             >
-                <GridItem 
+                <GridItem
                     colSpan = {1}
                     rowSpan = {2}
                 >
