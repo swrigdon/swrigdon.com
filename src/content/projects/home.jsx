@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Center, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Stack } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const ProjectHome = () =>{
 
@@ -11,25 +12,31 @@ const ProjectHome = () =>{
             p       = {10}
             shadow  = "2xl"
         >
-            <Grid
+            <Grid 
                 templateColumns = "repeat(5, 1fr)"
                 gap = {4}
             >
                 <GridItem colSpan = {1}>
-                </GridItem>
-                <GridItem colSpan = {4}>
-                    <h3 style={{fontSize: "2.25em"}}>My Projects</h3>
-                </GridItem>
-            </Grid>
-            <br />
-            <br />
-            <Grid
-                templateColumns = "repeat(5, 1fr)"
-                gap = {4}
-            >
-                <GridItem colSpan = {1}>
-                </GridItem>
-                <GridItem colSpan = {4}>
+                    <Stack 
+                        direction   = {"column"}
+                        spacing     = {"10%"}
+                    >
+                        <Link to={"/projects"}>
+                            All Projects
+                        </Link>
+                        <hr />
+                        <Link to={"/projects/school"}>
+                            School Projects
+                        </Link>
+                        <hr />
+                        <Link to={"/projects/work"}>
+                            Work Projects
+                        </Link>
+                        <hr />
+                        <Link to={"/projects/personal"}>
+                            Personal Projects
+                        </Link>
+                    </Stack>
                 </GridItem>
             </Grid>
         </Box>

@@ -121,9 +121,10 @@ const AboutMe = () =>{
                         <GridItem colSpan = {1}>
                             <UnorderedList>
                                 <ListItem>AWS EC2</ListItem>
-                                <ListItem>AWS Aurora DB</ListItem>
+                                <ListItem>REST</ListItem>
                                 <ListItem>Websockets</ListItem>
                                 <ListItem>GraphQL</ListItem>
+                                <ListItem>SharePoint 2013</ListItem>
                             </UnorderedList>
                         </GridItem>
                     </Grid>

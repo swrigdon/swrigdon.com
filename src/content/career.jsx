@@ -95,7 +95,7 @@ const Career = () =>{
                     Some of my work on the project is listed below
                     <UnorderedList>
                         <ListItem>Developed several portions of the UI using HTML, CSS, vanilla Javascript, and jQuery</ListItem>
-                        <ListItem>Created several of the Nintex Workflow 2013 workflows that handled the automated logic to facilitate moving the PANs from team to team, as well as making sure that each team completed their portion of the PAN process in a timely manner</ListItem>
+                        <ListItem>Created several of the Nintex Workflow 2013 workflows in SharePoint 2013 that handled the automated logic to facilitate moving the PANs from team to team, as well as making sure that each team completed their portion of the PAN process in a timely manner</ListItem>
                     </UnorderedList>
                 </GridItem>
             </Grid>
@@ -117,9 +117,8 @@ const Career = () =>{
                     <strong>Orange County Government - Student Intern (September 2015 - April 2016)</strong>
                     <hr />
                     <br />
-                    I was a student at the University of Central Florida from 2014 to 2020, pursuing and earning my Bachelor's of Science in
-                    Computer Science. During my time there, I was vice president and president of the UCF chapter of the
-                    Association for Computing Machinery, and I was also involved with the UCF Tech Knights organization as well. 
+                    While I was a Student Intern for the Orange County Florida's Internal Systems and Services division, I was tasked with updating and maintaining the county website, <a href="https://www.ocfl.net">ocfl.net</a>, using a combination of 
+                    HTML and CSS within Dotnetnuke modules. During my time there I also assisted in helping test and develop the county's intranet site in SharePoint 2013.
                 </GridItem>
             </Grid>
         </Box>

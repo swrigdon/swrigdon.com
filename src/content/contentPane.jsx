@@ -25,11 +25,7 @@ const ContentPane = () =>{
                 <Career/>
             </Route>
             <Route path = "/projects">
-                <Switch>
-                    <Route path = "/">
-                        <ProjectHome/>
-                    </Route>
-                </Switch>
+                <ProjectHome/>
             </Route>
             <Route path = "/">
                 <Home/>

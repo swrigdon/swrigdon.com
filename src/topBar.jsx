@@ -44,7 +44,7 @@ const TopBar = () =>{
             <Link 
                 ml  = {10}
                 as  = {RouterLink}
-                to  = "/projects/home"
+                to  = "/projects"
             >
                 My Projects
             </Link>
