@@ -1,5 +1,8 @@
-import React from "react";
-import { Box, Center } from "@chakra-ui/react";
+import React                            from "react";
+import { Box, Center }                  from "@chakra-ui/react";
+import { FontAwesomeIcon }              from "@fortawesome/react-fontawesome";
+import { faEnvelope }                   from "@fortawesome/free-solid-svg-icons";
+import { faGithubSquare, faLinkedin }   from "@fortawesome/free-brands-svg-icons";
 import "../css/content.css";
 import "../css/home.css";
 
@@ -40,6 +43,46 @@ export default class Home extends React.Component{
                 <Center>
                     <h1 className = "HomeTitle">Stephen William Rigdon</h1>
                 </Center>
+                <div 
+                    className = "HomeLinks"
+                    style = {{width: "100%"}}
+                >
+                    <Center>
+                        <a
+                            href    = "https://www.linkedin.com/in/stephen-rigdon-309309a6/"
+                            style   = {{marginRight: "2.5%"}}
+                            target  = "_blank"
+                            rel     = "noreferrer"
+                        >
+                            <FontAwesomeIcon
+                                icon = {faLinkedin}
+                                size = "4x"
+                            />
+                        </a>
+                        <a
+                            href    = "https://github.com/swrigdon"
+                            style   = {{marginLeft: "2.5%", marginRight: "2.5%"}}
+                            target  = "_blank"
+                            rel     = "noreferrer"
+                        >
+                            <FontAwesomeIcon
+                                icon = {faGithubSquare}
+                                size = "4x"
+                            />
+                        </a>
+                        <a
+                            href    = "mailto:swrigdon@gmail.com"
+                            style   = {{marginLeft: "2.5%"}}
+                            target  = "_blank"
+                            rel     = "noreferrer"
+                        >
+                            <FontAwesomeIcon
+                                icon = {faEnvelope}
+                                size = "4x"
+                            />
+                        </a>
+                    </Center>
+                </div>
             </div>
         );
     }

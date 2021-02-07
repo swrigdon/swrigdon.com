@@ -32,7 +32,7 @@ const ContentPane = () =>{
             </Route>
         </Switch> 
     );
-}
+};
 
 export default ContentPane;
  

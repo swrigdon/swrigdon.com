@@ -1,7 +1,12 @@
-import React from "react";
-import { Box, Center, Grid, GridItem, ListItem, UnorderedList } from "@chakra-ui/react";
-import differenceInYears from "date-fns/differenceInYears";
-import AboutMePhoto from "../img/aboutMe.jpg";
+import React                from "react";
+import { Box, 
+        Center, 
+        Grid, 
+        GridItem, 
+        ListItem, 
+        UnorderedList }     from "@chakra-ui/react";
+import differenceInYears    from "date-fns/differenceInYears";
+import AboutMePhoto         from "../img/aboutMe.jpg";
 import "../css/content.css";
 
 const calulateAge = () =>{
@@ -10,7 +15,7 @@ const calulateAge = () =>{
     const birthDate = new Date(1996, 8, 17);
 
     return differenceInYears(now, birthDate);
-}
+};
 
 const AboutMe = () =>{
 
@@ -113,7 +118,7 @@ const AboutMe = () =>{
                             <UnorderedList>
                                 <ListItem>date-fns</ListItem>
                                 <ListItem>Bootstrap</ListItem>
-                                <ListItem>Jest</ListItem>
+                                <ListItem>MongooseJS</ListItem>
                                 <ListItem>NodeJS</ListItem>
                                 <ListItem>ExpressJS</ListItem>
                             </UnorderedList>
@@ -123,7 +128,7 @@ const AboutMe = () =>{
                                 <ListItem>AWS EC2</ListItem>
                                 <ListItem>REST</ListItem>
                                 <ListItem>Websockets</ListItem>
-                                <ListItem>GraphQL</ListItem>
+                                <ListItem>MongoDB</ListItem>
                                 <ListItem>SharePoint 2013</ListItem>
                             </UnorderedList>
                         </GridItem>
@@ -132,6 +137,6 @@ const AboutMe = () =>{
             </Grid>
         </Box>
     );
-}
+};
 
 export default AboutMe;

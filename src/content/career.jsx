@@ -1,7 +1,12 @@
-import React from "react";
-import { Box, Center, Grid, GridItem, ListItem, UnorderedList } from "@chakra-ui/react";
-import OCLogo from "../img/ocGovLogo.png";
-import DisneyLogo from "../img/dpep.jpg";
+import React            from "react";
+import { Box, 
+        Center, 
+        Grid, 
+        GridItem, 
+        ListItem, 
+        UnorderedList } from "@chakra-ui/react";
+import OCLogo           from "../img/ocGovLogo.png";
+import DisneyLogo       from "../img/dpep.jpg";
 
 const Career = () =>{
 
@@ -123,6 +128,6 @@ const Career = () =>{
             </Grid>
         </Box>
     );
-}
+};
 
 export default Career;

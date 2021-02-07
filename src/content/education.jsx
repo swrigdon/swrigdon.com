@@ -1,6 +1,9 @@
-import React from "react";
-import { Box, Center, Grid, GridItem } from "@chakra-ui/react";
-import UCFLogo from "../img/ucfLogo.png";
+import React        from "react";
+import { Box, 
+        Center, 
+        Grid, 
+        GridItem }  from "@chakra-ui/react";
+import UCFLogo      from "../img/ucfLogo.png";
 
 const Education = () =>{
 
@@ -47,6 +50,6 @@ const Education = () =>{
             </Grid>
         </Box>
     );
-}
+};
 
 export default Education;
