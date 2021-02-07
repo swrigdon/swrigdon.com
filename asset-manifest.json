@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c758c9a5.chunk.css",
+    "main.js": "/static/js/main.057df22c.chunk.js",
+    "main.js.map": "/static/js/main.057df22c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.85820ec8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.85820ec8.js.map",
+    "static/js/2.f24aff7e.chunk.js": "/static/js/2.f24aff7e.chunk.js",
+    "static/js/2.f24aff7e.chunk.js.map": "/static/js/2.f24aff7e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c758c9a5.chunk.css.map": "/static/css/main.c758c9a5.chunk.css.map",
+    "static/js/2.f24aff7e.chunk.js.LICENSE.txt": "/static/js/2.f24aff7e.chunk.js.LICENSE.txt",
+    "static/media/aboutMe.d8a1666e.jpg": "/static/media/aboutMe.d8a1666e.jpg",
+    "static/media/brawliseum.3a58177d.jpg": "/static/media/brawliseum.3a58177d.jpg",
+    "static/media/ocGovLogo.b88d6099.png": "/static/media/ocGovLogo.b88d6099.png",
+    "static/media/realityFlow.56d3f9c3.jpg": "/static/media/realityFlow.56d3f9c3.jpg",
+    "static/media/ucfLogo.652354eb.png": "/static/media/ucfLogo.652354eb.png",
+    "static/media/home.css": "/static/media/welcome.9bcdc069.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85820ec8.js",
+    "static/js/2.f24aff7e.chunk.js",
+    "static/css/main.c758c9a5.chunk.css",
+    "static/js/main.057df22c.chunk.js"
+  ]
+}
