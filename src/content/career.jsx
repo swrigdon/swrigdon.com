@@ -61,7 +61,7 @@ const Career = () =>{
                     <br />
                     <UnorderedList>
                         <ListItem>Currently co-developing a replacement for the call Quality Assurance application, which is used in Florida, California, and Tennessee for thousands of agents and their leaders</ListItem>
-                        <ListItem>Currently the lead developer on a project to migrate our existing backend infrastructure from SharePoint 2013, to a custom webserver hosted in AWS EC2 instances, coupled with an AuroraDB database</ListItem>
+                        <ListItem>Currently the lead developer on a project to migrate our existing backend infrastructure from SharePoint 2013, to a custom webserver hosted in VMWare RHEL instances, coupled with a SQL Server database</ListItem>
                         <ListItem>Developed an application to replace the manual annual review process for about 2000 phone agents and their managers</ListItem>
                         <ListItem>Developed a company store application to redeem points for hundreds of contact center agents and their leaders in California</ListItem>
                         <ListItem>Worked in a joint effort with the Travel Operations Telecom team to redesign and standardize the CI/CD flow for web applications deployed for the Disney Reservation Center</ListItem>

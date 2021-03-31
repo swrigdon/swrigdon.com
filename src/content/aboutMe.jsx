@@ -72,16 +72,16 @@ const AboutMe = () =>{
                         <GridItem colSpan = {2}>
                             <strong>Proficient In:</strong>
                             <UnorderedList>
-                                <ListItem>JavaScript/TypeScript</ListItem>
-                                <ListItem>HTML</ListItem>
                                 <ListItem>CSS/SCSS</ListItem>
+                                <ListItem>HTML</ListItem>
+                                <ListItem>JavaScript/TypeScript</ListItem>
                             </UnorderedList>
                         </GridItem>
                         <GridItem colSpan = {2}>
                             <strong>Familiar With:</strong>
                             <UnorderedList>
                                 <ListItem>C</ListItem>
-                                <ListItem>C++</ListItem>
+                                <ListItem>C#</ListItem>
                                 <ListItem>Java</ListItem>
                                 <ListItem>Powershell</ListItem>
                                 <ListItem>Python</ListItem>
@@ -98,38 +98,39 @@ const AboutMe = () =>{
                      >
                         <GridItem colSpan = {1}>
                             <UnorderedList>
-                                <ListItem>Jenkins</ListItem>
+                                <ListItem>Babel</ListItem>
+                                <ListItem>Bootstrap</ListItem>
+                                <ListItem>ESLint</ListItem>
+                                <ListItem>ExpressJS</ListItem>
                                 <ListItem>Git</ListItem>
-                                <ListItem>GitHub</ListItem>
-                                <ListItem>GitLab CI</ListItem>
-                                <ListItem>OAuth/OIDC</ListItem>
                             </UnorderedList>
                         </GridItem>
                         <GridItem colSpan = {1}>
                             <UnorderedList>
-                                <ListItem>Babel</ListItem>
-                                <ListItem>Webpack</ListItem>
-                                <ListItem>ESLint</ListItem>
+                                <ListItem>GitHub</ListItem>
+                                <ListItem>GitLab CI</ListItem>
+                                <ListItem>Jenkins</ListItem>
+                                <ListItem>MongoDB</ListItem>
+                                <ListItem>MongooseJS</ListItem>
+                            </UnorderedList>
+                        </GridItem>
+                        <GridItem colSpan = {1}>
+                            <UnorderedList>
+                                <ListItem>NodeJS</ListItem>
+                                <ListItem>OAuth/OIDC</ListItem>
+                                <ListItem>Prisma</ListItem>
                                 <ListItem>ReactJS</ListItem>
                                 <ListItem>React Router</ListItem>
                             </UnorderedList>
                         </GridItem>
                         <GridItem colSpan = {1}>
                             <UnorderedList>
-                                <ListItem>date-fns</ListItem>
-                                <ListItem>Bootstrap</ListItem>
-                                <ListItem>MongooseJS</ListItem>
-                                <ListItem>NodeJS</ListItem>
-                                <ListItem>ExpressJS</ListItem>
-                            </UnorderedList>
-                        </GridItem>
-                        <GridItem colSpan = {1}>
-                            <UnorderedList>
-                                <ListItem>AWS EC2</ListItem>
                                 <ListItem>REST</ListItem>
-                                <ListItem>Websockets</ListItem>
-                                <ListItem>MongoDB</ListItem>
+                                <ListItem>RHEL</ListItem>
                                 <ListItem>SharePoint 2013</ListItem>
+                                <ListItem>SQL Server</ListItem>
+                                <ListItem>Webpack</ListItem>
+                                <ListItem>Websockets</ListItem>
                             </UnorderedList>
                         </GridItem>
                     </Grid>
