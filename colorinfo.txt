@@ -1,0 +1,5 @@
+primary color: #595959
+secondary color: #1a1a1a
+tertiary color: red
+hover color: #808080
+welcome color: #d9d9d9
