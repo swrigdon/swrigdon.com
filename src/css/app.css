@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.App{
+
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
