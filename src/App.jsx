@@ -1,14 +1,29 @@
+import React from 'react';
+import {
+  ChakraProvider,
+  Container,
+  extendTheme
+} from '@chakra-ui/react';
+import { useWindowSize } from './hooks/useWindowSize.js';
 import ContentPane from './content/contentPane.jsx';
 import TopBar from './topBar.jsx';
-import "./css/app.css";
 
-function App() {
+const App = () => {
+  const {height, width} = useWindowSize();
+  const theme = extendTheme({
+    colors: {
+      swrigdon: {
+        purple: '#800080',
+        black: '#333333'
+      }
+    }
+  });
 
   return (
-    <div className="App">
+    <ChakraProvider theme={theme}>
       <TopBar/>
-      <ContentPane/>
-    </div>
+      <ContentPane width={width} height={height}/>
+    </ChakraProvider>
   );
 }
 

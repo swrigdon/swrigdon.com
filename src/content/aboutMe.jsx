@@ -7,7 +7,6 @@ import { Box,
         UnorderedList }     from "@chakra-ui/react";
 import differenceInYears    from "date-fns/differenceInYears";
 import AboutMePhoto         from "../img/aboutMe.jpg";
-import "../css/content.css";
 
 const calulateAge = () =>{
 
