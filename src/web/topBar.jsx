@@ -24,10 +24,14 @@ const TopBar = () =>{
                 backgroundColor='swrigdon.black'
                 id="topbar"
             >
-                <Image
-                    src='https://cloud.swrigdon.com/s/oZnpWGtsZPTjpPC/preview'
-                    w='5%'
-                />
+                <Link
+                    w="3%"
+                    href="/"
+                >
+                    <Image
+                        src='https://cloud.swrigdon.com/s/oZnpWGtsZPTjpPC/preview'
+                    />
+                </Link>
                 <Tabs variant="unstyled">
                     <TabList>
                         <Tab color='white'>
@@ -48,7 +52,7 @@ const TopBar = () =>{
                         </Tab>
                         <Tab color='white'>
                             <Link
-                                href='/projectshome'
+                                href='/projects'
                                 _hover={{color: 'swrigdon.purple'}}
                             >
                                 My Projects
@@ -74,7 +78,7 @@ const TopBar = () =>{
                                 _hover={{color: 'swrigdon.purple'}}
                                 href='https://www.linkedin.com/in/swrigdon'
                             >
-                                <FontAwesomeIcon icon={faLinkedin} size="3x"/>
+                                <FontAwesomeIcon icon={faLinkedin} size="2x"/>
                             </Link>
                         </Tab>
                         <Tab color='white'>
@@ -83,7 +87,7 @@ const TopBar = () =>{
                                 _hover={{color: 'swrigdon.purple'}}
                                 href='https://www.github.com/swrigdon'
                             >
-                                <FontAwesomeIcon icon={faGithubSquare} size="3x"/>
+                                <FontAwesomeIcon icon={faGithubSquare} size="2x"/>
                             </Link>
                         </Tab>
                         <Tab color='white'>
@@ -92,7 +96,7 @@ const TopBar = () =>{
                                 _hover={{color: 'swrigdon.purple'}}
                                 href='mailto:swrigdon@gmail.com'
                             >
-                                <FontAwesomeIcon icon={faEnvelope} size="3x"/>
+                                <FontAwesomeIcon icon={faEnvelope} size="2x"/>
                             </Link>
                         </Tab>
                     </TabList>
