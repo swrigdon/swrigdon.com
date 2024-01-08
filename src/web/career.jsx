@@ -54,12 +54,12 @@ const Career = () => {
                                 legal compliance regarding Amazon Flex gig-work drivers in whatever geographic areas they
                                 operate in. We have a serverless architecture hosted entirely in AWS using AWS products such as
                                 Lambda functions, DynamoDB tables, SQS queues, SNS topics, Glue jobs, and CloudFormation stacks.
-                                I have used primarily Java at Amazon, though I have also used Python for reporting scripting and
-                                Typescript with the CDK and with a React UI we built for support agents to use when helping Flex drivers.
+                                I have used primarily Java at Amazon, though I have also used Python for reporting scripts, and
+                                TypeScript with the CDK and with a React UI we built for support agents to use when helping Flex drivers.
                             </Text>
                             <br />
                             <Text>
-                                Some of the work I have done on my team at Amazon includes refatoring the compliance team's flagship monolithic
+                                Some of the work I have done on my team at Amazon includes refactoring the compliance team's flagship monolithic
                                 product into separate microservices, and contributing to a new initiative regarding increased route transparency
                                 to Flex drivers in the city of Seattle.
                             </Text>
@@ -98,9 +98,9 @@ const Career = () => {
                             <Text>
                                 While at Disney, I worked for the Systems Integration team at the Disney Reservation Center.
                                 The goal of my team was to provide solutions both from vendors and made in-house to assist phone
-                                agents at the reservation center that helped guests book everthing from park visits, to hotel stays,
+                                agents at the reservation center that helped guests book everything from park visits, to hotel stays,
                                 to conventions, to cruises. Our web applications were largely hosted on SharePoint 2013, and we largely used
-                                JavaScript with jQuery and TypeScript, with some occasional Powershell.
+                                JavaScript and TypeScript with React, with some occasional jQuery and Powershell.
                             </Text>
                             <br />
                             <Text>
@@ -108,7 +108,7 @@ const Career = () => {
                                 a cancellation tracking application used by executive leadership throughout Walt Disney World at
                                 the onset of the pandemic, an application to handle the employee annual reviews of the phone agents, which had been
                                 a manual process before the pandemic, a redesign of the reservation center's agent quality assurance tracking
-                                application, and a TypeScritp API to facilitate data transfer between all of my team's web applications so that we
+                                application, and a TypeScript API to facilitate data transfer between all of my team's web applications so that we
                                 could begin the process of migrating away from SharePoint.
                             </Text>
                         </Container>
@@ -129,7 +129,7 @@ const Career = () => {
                                 the Disney Reservation Center. My primary focus was on shoring up my team's
                                 operation processes. This includes incorporating legacy products into version control via
                                 GitLab, and creating templates and processes for full CI/CD for all new applications via
-                                GitLab Runners and Jenkins. During this intership I also wrote the Reservation Center's first
+                                GitLab Runners and Jenkins. During this internship I also wrote the Reservation Center's first
                                 React applications, and created robust custom application templates to give my team's developers a codebase
                                 to start upon.
                             </Text>

@@ -39,7 +39,7 @@ const Projects = () => {
                     </Text>
                     <Stack direction="row">
                         {rendyThumbnail}
-                        <Text fontSize="1.1em" marginLeft="5%">
+                        <Text fontSize="1em" marginLeft="5%">
                             Rendy is a software ray tracer written entirely in C++ by myself as a learning exercise.
                             Rendy is still in active development and its progress can be tracked over on GitHub.
                             The intention is to develop it over time into a feature-complete ray tracer utilizing DirectX 12.
@@ -50,7 +50,7 @@ const Projects = () => {
                     </Text>
                     <Stack direction="row">
                         {realityFlowThumbnail}
-                        <Text fontSize="1.1em" marginLeft="5%">
+                        <Text fontSize="1em" marginLeft="5%">
                             RealityFlow was a senior project in college that I developed under Dr. John Murray alongside a team of
                             four other developers. The goal was to bring collaboration to the VR space. By the time the project
                             was finished, we had successfully written a cloud server and database that could communicate between
@@ -63,7 +63,7 @@ const Projects = () => {
                     </Text>
                     <Stack direction="row">
                         {brawliseumThumbnail}
-                        <Text fontSize="1.1em" marginLeft="5%">
+                        <Text fontSize="1em" marginLeft="5%">
                             Brawliseum was a game I developed in college alongside four other students. It is a pseudo-random dungeon crawler
                             written in Java with the libGDX library and uses the A* algorithm to carve out the maze paths for each level. 
                         </Text>

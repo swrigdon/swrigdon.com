@@ -21,13 +21,12 @@ const MobileNavBar = () => {
             <Flex
                 w="100%"
                 px="3"
-                py="5"
                 align="center"
                 justify="space-between"
                 boxShadow='10px'
                 background='swrigdon.black'
             >
-                <Box w="10%">
+                <Box w="15%">
                     <Link
                         href="/"
                     >
@@ -42,7 +41,7 @@ const MobileNavBar = () => {
                         <MenuButton
                             as={IconButton}
                             aria-label='Menu'
-                            icon={<FontAwesomeIcon icon={faBars}/>}
+                            icon={<FontAwesomeIcon icon={faBars} size='1x'/>}
                             color='white'
                             backgroundColor='swrigdon.black'
                         />
@@ -51,22 +50,22 @@ const MobileNavBar = () => {
                                 Home
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='/education' as='a'>
-                                My Education
+                                Education
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='/career' as='a'>
-                                My Career
+                                Career
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='/projects' as='a'>
-                                My Projects
+                                Projects
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href="https://docs.google.com/document/d/1fo_6aZ1ikzC2wWy5SYEKG37qytN1OPtyNMP9aAsPYFs/export?format=pdf" as='a' target='_blank'>
-                                My Resume
+                                Resume
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='https://www.linkedin.com/in/swrigdon' as='a' target='_blank'>
-                                My Linkedin
+                                Linkedin
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='https://www.github.com/swrigdon' as='a' target='_blank'>
-                                My GitHub
+                                GitHub
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='mailto:swrigdon@gmail.com' as='a'>
                                 Email Me

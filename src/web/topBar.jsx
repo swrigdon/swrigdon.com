@@ -25,7 +25,8 @@ const TopBar = () =>{
                 id="topbar"
             >
                 <Link
-                    w="3%"
+                    w="3.5%"
+                    padding="0"
                     href="/"
                 >
                     <Image
@@ -39,7 +40,7 @@ const TopBar = () =>{
                                 href='/education'
                                 _hover={{color: 'swrigdon.purple'}}
                             >
-                                My Education
+                                Education
                             </Link>
                         </Tab>
                         <Tab color='white'>
@@ -47,7 +48,7 @@ const TopBar = () =>{
                                 href='/career'
                                 _hover={{color: 'swrigdon.purple'}}
                             >
-                                My Career
+                                Career
                             </Link>
                         </Tab>
                         <Tab color='white'>
@@ -55,7 +56,7 @@ const TopBar = () =>{
                                 href='/projects'
                                 _hover={{color: 'swrigdon.purple'}}
                             >
-                                My Projects
+                                Projects
                             </Link>
                         </Tab>
                         <Tab color='white'>
@@ -64,7 +65,7 @@ const TopBar = () =>{
                                 _hover={{color: 'swrigdon.purple'}}
                                 href="https://docs.google.com/document/d/1fo_6aZ1ikzC2wWy5SYEKG37qytN1OPtyNMP9aAsPYFs/export?format=pdf"
                             >
-                                My Resume
+                                Resume
                             </Link>
                         </Tab>
                     </TabList>
