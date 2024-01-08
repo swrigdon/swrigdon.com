@@ -1,19 +1,11 @@
-import React              from 'react';
-import ReactDOM           from 'react-dom';
-import { ChakraProvider } from "@chakra-ui/react";
-import { HashRouter }     from "react-router-dom";
-import App                from './App.jsx';
-import "./css/index.css";
+import React, { StrictMode }from 'react';
+import { createRoot }       from 'react-dom/client';
+import App                  from './app';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter
-      basename = "/"
-    >
-      <ChakraProvider>
-        <App />
-      </ChakraProvider>
-    </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+const root = createRoot(document.getElementById("root"));
+
+root.render(
+    <StrictMode>
+        <App/>
+    </StrictMode>
 );
