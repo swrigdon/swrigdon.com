@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    Center,
     Container,
     Text
 } from '@chakra-ui/react';
@@ -18,13 +19,16 @@ const AboutMe = () => {
     }
 
     return(
-        <Container maxW='66%' marginTop='12%'>
-            <Text
-                fontSize='5.5em'
-            >
-                Howdy! I'm Stephen.
-            </Text>
-            <Text fontSize='1.5em'>
+        <Container maxW='95%' marginTop='25%'>
+            <Center>
+                <Text
+                    fontSize='2em'
+                >
+                    Howdy! I'm Stephen.
+                </Text>
+            </Center>
+            <br />
+            <Text fontSize='1em'>
                 Welcome to my personal website! I am a {calulateAge()} year old software engineer. I have over {calculateYOE()} years of
                 experience in industry, with an additional 2.5 years of internship experience. I have worked for companies ranging
                 from seed-round startups to Fortune 50 entertainment giants and FAANG companies. Feel free to take a look around
@@ -32,10 +36,10 @@ const AboutMe = () => {
             </Text>
             <br />
             <br />
-            <Text fontSize='1.5em'>
+            <Text fontSize='1em'>
                 Thanks for dropping by!
             </Text>
-        </Container>
+            </Container>
     )
 };
 

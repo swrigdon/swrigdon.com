@@ -2,7 +2,8 @@ import React from 'react';
 import {
   ChakraProvider,
   Container,
-  extendTheme
+  extendTheme,
+  Show
 } from '@chakra-ui/react';
 import {
   createBrowserRouter,
@@ -10,29 +11,27 @@ import {
 }    from "react-router-dom";
 import { useWindowSize } from './hooks/useWindowSize.js';
 import TopBar from './web/topBar.jsx';
-import AboutMe from './web/aboutme.jsx';
-import Education from './web/education.jsx';
-import Career from './web/career.jsx';
-import Projects from './web/projects.jsx';
+import MobileTopBar from './mobile/topBar.jsx';
+
 
 const App = () => {
-  const {height, width} = useWindowSize();
+  const {height, width, aboutMeComponent, educationComponent, careerComponent, projectsComponent} = useWindowSize();
   const router = createBrowserRouter([
     {
         path: '/',
-        element: <AboutMe/>
+        element: aboutMeComponent
     },
     {
         path: '/education',
-        element: <Education/>
+        element: educationComponent
     },
     {
         path: '/career',
-        element: <Career/>
+        element: careerComponent
     },
     {
         path: '/projects',
-        element: <Projects/>
+        element: projectsComponent
     }
   ]);
   const theme = extendTheme({
@@ -53,8 +52,14 @@ const App = () => {
         minHeight={height}
         backgroundImage= 'url("https://cloud.swrigdon.com/s/Bpnzzzrk7Qc469q/preview")'
         backgroundSize='cover'
+        fontFamily="Ubuntu Mono, monospace"
       >
-        <TopBar/>
+        <Show breakpoint='(min-width: 811px)'>
+          <TopBar/>
+        </Show>
+        <Show breakpoint='(max-width: 810px)'>
+          <MobileTopBar/>
+        </Show>
         <RouterProvider router={router}/>
       </Container>
     </ChakraProvider>

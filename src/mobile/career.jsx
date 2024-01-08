@@ -2,6 +2,7 @@ import React from "react";
 import {
     Card,
     CardBody,
+    Center,
     Container,
     Link,
     Image,
@@ -11,39 +12,45 @@ import {
 
 const Career = () => {
     const AmazonLogo = 
-    <Link maxW="10%" href="https://flex.amazon.com" target="_blank">
+    <Link maxW="37%" href="https://flex.amazon.com" target="_blank">
         <Image src="https://cloud.swrigdon.com/s/wBt4Bc7i8PxRMen/preview"/>
     </Link>;
     const DisneyLogo = 
-    <Link maxW="10%" href="https://disneyworld.disney.go.com" target="_blank">
+    <Link maxW="37%" href="https://disneyworld.disney.go.com" target="_blank">
         <Image src="https://cloud.swrigdon.com/s/o4NspG7yXHZdfHW/preview"/>
     </Link>;
     const NoCapLogo = 
-    <Link maxW="10%" href="https://www.nocapshows.com" target="_blank">
+    <Link maxW="37%" href="https://www.nocapshows.com" target="_blank">
         <Image src="https://cloud.swrigdon.com/s/S9xW3Hp5E3rHW6H/preview"/>
     </Link>;
     const OCLogo = 
-    <Link maxW="10%" href="https://www.ocfl.net/" target="_blank">
+    <Link maxW="37%" href="https://www.ocfl.net/" target="_blank">
         <Image src="https://cloud.swrigdon.com/s/Y8afn6DZ2A7RXxF/preview"/>
     </Link>;
     
     return(
         <Container
-            minW="66%"
+            minW="95%"
             marginTop="3%"
         >
-            <Text fontSize="4em">
-                My Career
-            </Text>
+            <Center>
+                <Text fontSize="3em">
+                    My Career
+                </Text>
+            </Center>
             <br />
             <Card paddingLeft="3%" paddingBottom="2.5%">
                 <CardBody>
-                    <Text fontSize="2.5em">
-                        Industry
-                    </Text>
+                    <Center>
+                        <Text fontSize="2.5em">
+                            Industry
+                        </Text>
+                    </Center>
                     <hr />
-                    <Stack direction="row" paddingTop="2.5%">
-                        {AmazonLogo}
+                    <Stack direction="column" paddingTop="2.5%">
+                        <Center>
+                            {AmazonLogo}
+                        </Center>
                         <Container minWidth="85%">
                             <Text fontSize="1.5em">
                                 Amazon - Software Development Engineer II (Sep 2022 - Present)
@@ -65,8 +72,11 @@ const Career = () => {
                             </Text>
                         </Container>
                     </Stack>
-                    <Stack direction="row" paddingTop="2.5%">
-                        {NoCapLogo}
+                    <hr />
+                    <Stack direction="column" marginTop="5%">
+                        <Center>
+                            {NoCapLogo}
+                        </Center>
                         <Container minWidth="85%">
                             <Text fontSize="1.5em">
                                 NoCap Live, LLC - Software Engineer (Aug 2021 - Sep 2022)
@@ -88,8 +98,11 @@ const Career = () => {
                             </Text>
                         </Container>
                     </Stack>
-                    <Stack direction="row" paddingTop="2.5%">
-                        {DisneyLogo}
+                    <hr />
+                    <Stack direction="column" marginTop="5%">
+                        <Center>
+                            {DisneyLogo}                        
+                        </Center>
                         <Container minWidth="85%">
                             <Text fontSize="1.5em">
                                 Disney - System Development and Sustainment Analyst (Feb 2020 - Aug 2021)
@@ -113,12 +126,16 @@ const Career = () => {
                             </Text>
                         </Container>
                     </Stack>
-                    <Text fontSize="2.5em" marginTop="2.5%">
-                        Internships
-                    </Text>
+                    <Center>
+                        <Text fontSize="2.5em" marginTop="2.5%">
+                            Internships
+                        </Text>
+                    </Center>
                     <hr />
-                    <Stack direction="row" paddingTop="2.5%">
-                        {DisneyLogo}
+                    <Stack direction="column" paddingTop="2.5%">
+                        <Center>
+                            {DisneyLogo}                        
+                        </Center>
                         <Container minWidth="85%">
                             <Text fontSize="1.5em">
                                 Disney - Web Development Intern (May 2019 - Feb 2020)
@@ -135,8 +152,11 @@ const Career = () => {
                             </Text>
                         </Container>
                     </Stack>
-                    <Stack direction="row" paddingTop="2.5%">
-                        {DisneyLogo}
+                    <hr />
+                    <Stack direction="column" marginTop="5%">
+                        <Center>
+                            {DisneyLogo}                        
+                        </Center>
                         <Container minWidth="85%">
                             <Text fontSize="1.5em">
                                 Disney - System Integration Intern (Jun 2017 - Jun 2018)
@@ -151,8 +171,11 @@ const Career = () => {
                             </Text>
                         </Container>
                     </Stack>
-                    <Stack direction="row" paddingTop="2.5%">
-                        {OCLogo}
+                    <hr />
+                    <Stack direction="column" marginTop="5%">
+                        <Center>
+                            {OCLogo}                        
+                        </Center>
                         <Container minWidth="85%">
                             <Text fontSize="1.5em">
                                 Orange County, FL Government - Student Intern (Sep 2015 - Apr 2016)
