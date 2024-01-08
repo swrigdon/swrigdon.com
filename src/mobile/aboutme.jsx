@@ -15,7 +15,8 @@ const AboutMe = () => {
     const calculateYOE = () => {
         const now = Date.now();
         const workStart = new Date(2020, 2, 20);
-        return differenceInYears(now, workStart);
+        // Offset years 
+        return Math.floor(differenceInYears(now, workStart) + 2.5);
     }
 
     return(
@@ -30,9 +31,8 @@ const AboutMe = () => {
             <br />
             <Text fontSize='1em'>
                 Welcome to my personal website! I am a {calulateAge()} year old software engineer. I have over {calculateYOE()} years of
-                experience in industry, with an additional 2.5 years of internship experience. I have worked for companies ranging
-                from seed-round startups to Fortune 50 entertainment giants and FAANG companies. Feel free to take a look around
-                this site to learn more about me, or feel free to reach out to me via LinkedIn, GitHub, or Email. 
+                experience working for companies ranging from seed-round startups to Fortune 50 entertainment giants and FAANG companies. 
+                Feel free to take a look around this site to learn more about me, or feel free to reach out to me via LinkedIn, GitHub, or Email. 
             </Text>
             <br />
             <br />

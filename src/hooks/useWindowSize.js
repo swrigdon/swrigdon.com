@@ -21,9 +21,9 @@ export const useWindowSize = () => {
     return {
         height: windowSize.height,
         width: windowSize.width,
-        aboutMeComponent: windowSize.width > 810 ? <AboutMe/> : <MobileAboutMe/>,
-        educationComponent: windowSize.width > 810 ? <Education/> : <MobileEducation/>,
-        careerComponent: windowSize.width > 810 ? <Career/> : <MobileCareer/>,
-        projectsComponent: windowSize.width > 810 ? <Projects/> : <MobileProjects/>
+        aboutMeComponent: windowSize.width > 999 ? <AboutMe/> : <MobileAboutMe/>,
+        educationComponent: windowSize.width > 999 ? <Education/> : <MobileEducation/>,
+        careerComponent: windowSize.width > 999 ? <Career/> : <MobileCareer/>,
+        projectsComponent: windowSize.width > 999 ? <Projects/> : <MobileProjects/>
     };
 };

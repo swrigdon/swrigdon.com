@@ -48,16 +48,17 @@ const App = () => {
       <Container
         margin='0'
         padding='0'
+        paddingBottom='2.5%'
         minWidth={width}
         minHeight={height}
         backgroundImage= 'url("https://cloud.swrigdon.com/s/Bpnzzzrk7Qc469q/preview")'
         backgroundSize='cover'
         fontFamily="Ubuntu Mono, monospace"
       >
-        <Show breakpoint='(min-width: 811px)'>
+        <Show breakpoint='(min-width: 1000px)'>
           <TopBar/>
         </Show>
-        <Show breakpoint='(max-width: 810px)'>
+        <Show breakpoint='(max-width: 999px)'>
           <MobileTopBar/>
         </Show>
         <RouterProvider router={router}/>
