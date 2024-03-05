@@ -1,5 +1,4 @@
 # swrigdon.com
 
-This is the repository for my personal website, [swrigdon.com](http://swrigdon.com).
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository for my personal website, [swrigdon.com](https://www.swrigdon.com).
+This website is written using [React](https://react.dev/) and [Chakra-UI](https://chakra-ui.com/).
