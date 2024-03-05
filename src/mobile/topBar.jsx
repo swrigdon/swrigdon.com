@@ -19,12 +19,14 @@ const MobileNavBar = () => {
     return(
         <chakra.header id="mobileHeader">
             <Flex
+                top="0px"
                 w="100%"
                 px="3"
                 align="center"
                 justify="space-between"
                 boxShadow='10px'
                 background='swrigdon.black'
+                as="header"
             >
                 <Box w="15%">
                     <Link
@@ -49,13 +51,13 @@ const MobileNavBar = () => {
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='/' as='a'>
                                 Home
                             </MenuItem>
-                            <MenuItem backgroundColor='swrigdon.black' color='white' href='/education' as='a'>
+                            <MenuItem backgroundColor='swrigdon.black' color='white' href='#education' as='a'>
                                 Education
                             </MenuItem>
-                            <MenuItem backgroundColor='swrigdon.black' color='white' href='/career' as='a'>
+                            <MenuItem backgroundColor='swrigdon.black' color='white' href='#career' as='a'>
                                 Career
                             </MenuItem>
-                            <MenuItem backgroundColor='swrigdon.black' color='white' href='/projects' as='a'>
+                            <MenuItem backgroundColor='swrigdon.black' color='white' href='#projects' as='a'>
                                 Projects
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href="https://docs.google.com/document/d/1fo_6aZ1ikzC2wWy5SYEKG37qytN1OPtyNMP9aAsPYFs/export?format=pdf" as='a' target='_blank'>

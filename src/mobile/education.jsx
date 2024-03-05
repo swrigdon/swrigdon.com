@@ -26,8 +26,13 @@ const Education = () => {
     </Link>;
     return(
         <Container
-            minW="95%"
+            id="education"
+            maxW="95%"
             marginTop="3%"
+            border="1px"
+            borderColor="lightGray"
+            borderRadius="10px"
+            paddingBottom="5%"
         >
             <Center>
                 <Text fontSize="3em">

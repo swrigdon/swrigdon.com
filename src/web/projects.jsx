@@ -25,8 +25,16 @@ const Projects = () => {
 
     return(
         <Container
+            id="projects"
             maxW="66%"
+            border="1px"
+            borderColor="lightGray"
+            borderRadius="10px"
             marginTop="3%"
+            paddingTop="1%"
+            paddingRight="2.5%"
+            paddingLeft="2.5%"
+            paddingBottom="2.5%"
         >
             <Text fontSize="4em">
                 My Projects

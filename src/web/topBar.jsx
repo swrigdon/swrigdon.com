@@ -37,7 +37,7 @@ const TopBar = () =>{
                     <TabList>
                         <Tab color='white'>
                             <Link
-                                href='/education'
+                                href='#education'
                                 _hover={{color: 'swrigdon.purple'}}
                             >
                                 Education
@@ -45,7 +45,7 @@ const TopBar = () =>{
                         </Tab>
                         <Tab color='white'>
                             <Link
-                                href='/career'
+                                href='#career'
                                 _hover={{color: 'swrigdon.purple'}}
                             >
                                 Career
@@ -53,7 +53,7 @@ const TopBar = () =>{
                         </Tab>
                         <Tab color='white'>
                             <Link
-                                href='/projects'
+                                href='#projects'
                                 _hover={{color: 'swrigdon.purple'}}
                             >
                                 Projects

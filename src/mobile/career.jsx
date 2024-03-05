@@ -9,6 +9,12 @@ import {
     Stack,
     Text
 } from "@chakra-ui/react";
+import AmazonText from '../components/Career/amazonText';
+import NoCapText from '../components/Career/nocapText';
+import DisneyText1 from '../components/Career/disneyText1';
+import DisneyText2 from '../components/Career/disneyText2';
+import DisneyText3 from '../components/Career/disneyText3';
+import OCText from '../components/Career/ocText';
 
 const Career = () => {
     const AmazonLogo = 
@@ -30,8 +36,13 @@ const Career = () => {
     
     return(
         <Container
-            minW="95%"
+            id="career"
+            maxW="95%"
             marginTop="3%"
+            border="1px"
+            borderColor="lightGray"
+            borderRadius="10px"
+            paddingBottom="5%"
         >
             <Center>
                 <Text fontSize="3em">
@@ -51,25 +62,8 @@ const Career = () => {
                         <Center>
                             {AmazonLogo}
                         </Center>
-                        <Container minWidth="85%">
-                            <Text fontSize="1.5em">
-                                Amazon - Software Development Engineer II (Sep 2022 - Present)
-                            </Text>
-                            <br />
-                            <Text>
-                                At Amazon, I am currently on the Flex Altitude Compliance team. Our goal is to maintain
-                                legal compliance regarding Amazon Flex gig-work drivers in whatever geographic areas they
-                                operate in. We have a serverless architecture hosted entirely in AWS using AWS products such as
-                                Lambda functions, DynamoDB tables, SQS queues, SNS topics, Glue jobs, and CloudFormation stacks.
-                                I have used primarily Java at Amazon, though I have also used Python for reporting scripts, and
-                                TypeScript with the CDK and with a React UI we built for support agents to use when helping Flex drivers.
-                            </Text>
-                            <br />
-                            <Text>
-                                Some of the work I have done on my team at Amazon includes refactoring the compliance team's flagship monolithic
-                                product into separate microservices, and contributing to a new initiative regarding increased route transparency
-                                to Flex drivers in the city of Seattle.
-                            </Text>
+                        <Container>
+                            <AmazonText headingFontSize="1.5em" fontSize="1em"/>
                         </Container>
                     </Stack>
                     <hr />
@@ -77,25 +71,8 @@ const Career = () => {
                         <Center>
                             {NoCapLogo}
                         </Center>
-                        <Container minWidth="85%">
-                            <Text fontSize="1.5em">
-                                NoCap Live, LLC - Software Engineer (Aug 2021 - Sep 2022)
-                            </Text>
-                            <br />
-                            <Text>
-                                NoCap was a Series A startup that focused on partnering with artists to livestream shows and create
-                                virtual concerts born out of the pandemic. As a software engineer there, I spent much of my time developing
-                                new APIs and refactoring and adding features to the main website. NoCap was hosted entirely on Google Cloud, and used
-                                Firestore and BigQuery extensively. Most of our sites and features were written in TypeScript on Node, with our web
-                                pages being made with NextJS and our APIs using ExpressJS. However, we also had APIs written in Python using Flask that handled show running duties.
-                            </Text>
-                            <br />
-                            <Text>
-                                While at NoCap, I wrote a comprehensive reporting Express API to track artist's ticket and merchandise sales
-                                and provide a suite of analytics on those sales. I also wrote a Flask API that was used to handle the creation and manipulation of
-                                HLS manifests from Mux, and I contributed heavily to rewriting the chat system used on the video player and other improvements
-                                throughout the main site.
-                            </Text>
+                        <Container>
+                            <NoCapText headingFontSize="1.5em" fontSize="1em"/>
                         </Container>
                     </Stack>
                     <hr />
@@ -103,27 +80,8 @@ const Career = () => {
                         <Center>
                             {DisneyLogo}                        
                         </Center>
-                        <Container minWidth="85%">
-                            <Text fontSize="1.5em">
-                                Disney - System Development and Sustainment Analyst (Feb 2020 - Aug 2021)
-                            </Text>
-                            <br />
-                            <Text>
-                                While at Disney, I worked for the Systems Integration team at the Disney Reservation Center.
-                                The goal of my team was to provide solutions both from vendors and made in-house to assist phone
-                                agents at the reservation center that helped guests book everything from park visits, to hotel stays,
-                                to conventions, to cruises. Our web applications were largely hosted on SharePoint 2013, and we largely used
-                                JavaScript and TypeScript with React, with some occasional jQuery and Powershell.
-                            </Text>
-                            <br />
-                            <Text>
-                                While employed at Disney I led the creation of several high-impact web applications, such as
-                                a cancellation tracking application used by executive leadership throughout Walt Disney World at
-                                the onset of the pandemic, an application to handle the employee annual reviews of the phone agents, which had been
-                                a manual process before the pandemic, a redesign of the reservation center's agent quality assurance tracking
-                                application, and a TypeScript API to facilitate data transfer between all of my team's web applications so that we
-                                could begin the process of migrating away from SharePoint.
-                            </Text>
+                        <Container>
+                            <DisneyText1 headingFontSize="1.5em" fontSize="1em"/>
                         </Container>
                     </Stack>
                     <Center>
@@ -136,20 +94,8 @@ const Career = () => {
                         <Center>
                             {DisneyLogo}                        
                         </Center>
-                        <Container minWidth="85%">
-                            <Text fontSize="1.5em">
-                                Disney - Web Development Intern (May 2019 - Feb 2020)
-                            </Text>
-                            <br />
-                            <Text>
-                                While an intern the second time at Disney, I worked for the Systems Integration team at
-                                the Disney Reservation Center. My primary focus was on shoring up my team's
-                                operation processes. This includes incorporating legacy products into version control via
-                                GitLab, and creating templates and processes for full CI/CD for all new applications via
-                                GitLab Runners and Jenkins. During this internship I also wrote the Reservation Center's first
-                                React applications, and created robust custom application templates to give my team's developers a codebase
-                                to start upon.
-                            </Text>
+                        <Container>
+                            <DisneyText2 headingFontSize="1.5em" fontSize="1em"/>
                         </Container>
                     </Stack>
                     <hr />
@@ -157,18 +103,8 @@ const Career = () => {
                         <Center>
                             {DisneyLogo}                        
                         </Center>
-                        <Container minWidth="85%">
-                            <Text fontSize="1.5em">
-                                Disney - System Integration Intern (Jun 2017 - Jun 2018)
-                            </Text>
-                            <br />
-                            <Text>
-                                While an intern the first time at Disney, I worked for the Systems Integration team at the
-                                Disney Reservation Center. My task was to develop and application to automate and enhance
-                                the very manual process of onboarding and offboarding phone agents. Using a mixture of SharePoint 2013,
-                                Nintex Workflows on top of the SharePoint workflow engine, and jQuery on the front end, I was able to work
-                                with my fellow intern and produce a prototype of the application.  
-                            </Text>
+                        <Container>
+                            <DisneyText3 headingFontSize="1.5em" fontSize="1em"/>
                         </Container>
                     </Stack>
                     <hr />
@@ -176,17 +112,8 @@ const Career = () => {
                         <Center>
                             {OCLogo}                        
                         </Center>
-                        <Container minWidth="85%">
-                            <Text fontSize="1.5em">
-                                Orange County, FL Government - Student Intern (Sep 2015 - Apr 2016)
-                            </Text>
-                            <br />
-                            <Text>
-                                While an intern for Orange County, I was primarily responsible for maintaining the county's
-                                website and intranet portal. This was done primarily via HTML and CSS in the context of a
-                                DNN CMS. I also tested and contributed to the new replacement intranet portal, which was
-                                created in SharePoint 2013.
-                            </Text>
+                        <Container>
+                            <OCText headingFontSize="1.5em" fontSize="1em"/>
                         </Container>
                     </Stack>
                 </CardBody>
