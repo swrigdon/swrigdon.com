@@ -13,15 +13,15 @@ import React from "react";
 const Projects = () => {
     const rendyThumbnail = 
     <Link maxW="90%" href="https://github.com/swrigdon/Rendy" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/2CRbA69mLRg8S4x/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/7m9FZoz4KZRyfHP/preview"/>
     </Link>;
     const realityFlowThumbnail = 
     <Link maxW="90%" href="https://github.com/lucidbard/realityflow_2" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/YacP4WdetBH4fME/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/ecNmsMbAbZmBdEM/preview"/>
     </Link>;
     const brawliseumThumbnail =
     <Link maxW="90%" href="https://github.com/swrigdon/Brawliseum" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/fXfAEbHGaqKrgkq/preview" />
+        <Image src="https://cloud.swrigdon.com/s/rmiLQYEnyYiTB4o/preview" />
     </Link>;
 
     return(
