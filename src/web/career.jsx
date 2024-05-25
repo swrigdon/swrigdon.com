@@ -20,19 +20,19 @@ const Career = () => {
     const subContainerWidth = "85%";
     const AmazonLogo = 
     <Link maxW="10%" href="https://flex.amazon.com" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/wBt4Bc7i8PxRMen/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/YMKGT6eiG9A25c5/preview"/>
     </Link>;
     const DisneyLogo = 
     <Link maxW="10%" href="https://disneyworld.disney.go.com" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/o4NspG7yXHZdfHW/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/a3NdcgoCa8o77Y5/preview"/>
     </Link>;
     const NoCapLogo = 
     <Link maxW="10%" href="https://www.nocapshows.com" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/S9xW3Hp5E3rHW6H/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/fwDLbMDbWwfPtin/preview"/>
     </Link>;
     const OCLogo = 
     <Link maxW="10%" href="https://www.ocfl.net/" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/Y8afn6DZ2A7RXxF/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/ZBN9KAEsFaYa4tS/preview"/>
     </Link>;
     
     return(

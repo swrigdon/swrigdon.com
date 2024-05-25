@@ -33,7 +33,7 @@ const MobileNavBar = () => {
                         href="/"
                     >
                         <Image
-                            src='https://cloud.swrigdon.com/s/oZnpWGtsZPTjpPC/preview'
+                            src='https://cloud.swrigdon.com/s/WBZKTByPtkj9wPG/preview'
                         />
                     </Link>
                 </Box>

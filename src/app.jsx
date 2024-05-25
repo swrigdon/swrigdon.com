@@ -37,7 +37,7 @@ const App = () => {
         paddingBottom='2.5%'
         minWidth={width}
         minHeight={height}
-        backgroundImage= 'url("https://cloud.swrigdon.com/s/Bpnzzzrk7Qc469q/preview")'
+        backgroundImage= 'url("https://cloud.swrigdon.com/s/Hkdw8jApZA9wj7d/preview")'
         backgroundSize='cover'
         fontFamily="Ubuntu Mono, monospace"
       >

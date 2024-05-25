@@ -14,15 +14,15 @@ import {
 const Education = () => {
     const awsCCPLogo = 
     <Link maxW="37%" href="https://www.credly.com/badges/9154a3c4-935b-4377-8550-ee67e857d48a" target="_blank">
-         <Image src="https://cloud.swrigdon.com/s/tDcXTaS4T2aEGFG/preview"/>    
+         <Image src="https://cloud.swrigdon.com/s/XgTYBeHWzHABsDS/preview"/>    
     </Link>;
     const awsDevAssocLogo =
     <Link maxW="37%" href="https://www.credly.com/badges/64f4d7e9-60cd-4802-9c67-37c990767c3d" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/p7rFdc5wHEWSBQm/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/2r2yk9wy95CYsQi/preview"/>
     </Link>;
     const ucfLogo = 
     <Link maxW="37%" href="https://www.cecs.ucf.edu/" target="_blank">
-        <Image src="https://cloud.swrigdon.com/s/Bc6fwaWAQH7zoQY/preview"/>
+        <Image src="https://cloud.swrigdon.com/s/p2XjBZX7zpsckNt/preview"/>
     </Link>;
     return(
         <Container
