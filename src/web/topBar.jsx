@@ -63,7 +63,7 @@ const TopBar = () =>{
                             <Link
                                 target='_blank'
                                 _hover={{color: 'swrigdon.purple'}}
-                                href="https://docs.google.com/document/d/1fo_6aZ1ikzC2wWy5SYEKG37qytN1OPtyNMP9aAsPYFs/export?format=pdf"
+                                href="https://docs.google.com/document/d/1vxK_5hi0gS5F5NQyiJArUymeh3hd_wBjEYYiusOcsXc/export?format=pdf"
                             >
                                 Resume
                             </Link>

@@ -60,7 +60,7 @@ const MobileNavBar = () => {
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='#projects' as='a'>
                                 Projects
                             </MenuItem>
-                            <MenuItem backgroundColor='swrigdon.black' color='white' href="https://docs.google.com/document/d/1fo_6aZ1ikzC2wWy5SYEKG37qytN1OPtyNMP9aAsPYFs/export?format=pdf" as='a' target='_blank'>
+                            <MenuItem backgroundColor='swrigdon.black' color='white' href="https://docs.google.com/document/d/1vxK_5hi0gS5F5NQyiJArUymeh3hd_wBjEYYiusOcsXc/export?format=pdf" as='a' target='_blank'>
                                 Resume
                             </MenuItem>
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='https://www.linkedin.com/in/swrigdon' as='a' target='_blank'>
