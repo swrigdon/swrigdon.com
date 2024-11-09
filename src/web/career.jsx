@@ -13,6 +13,7 @@ import NoCapText from '../components/Career/nocapText';
 import DisneyText1 from '../components/Career/disneyText1';
 import DisneyText2 from '../components/Career/disneyText2';
 import DisneyText3 from '../components/Career/disneyText3';
+import DisneyText4 from '../components/Career/disneyText4';
 import OCText from '../components/Career/ocText';
 
 const Career = () => {
@@ -58,6 +59,12 @@ const Career = () => {
                         Industry
                     </Text>
                     <hr />
+                    <Stack direction="row" paddingTop="2.5%">
+                        {DisneyLogo}
+                        <Container minWidth={subContainerWidth}>
+                            <DisneyText4 headingFontSize="1.5em" fontSize="1em"/>
+                        </Container>
+                    </Stack>
                     <Stack direction="row" paddingTop="2.5%">
                         {AmazonLogo}
                         <Container minWidth={subContainerWidth}>

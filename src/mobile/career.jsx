@@ -14,6 +14,7 @@ import NoCapText from '../components/Career/nocapText';
 import DisneyText1 from '../components/Career/disneyText1';
 import DisneyText2 from '../components/Career/disneyText2';
 import DisneyText3 from '../components/Career/disneyText3';
+import DisneyText4 from '../components/Career/disneyText4';
 import OCText from '../components/Career/ocText';
 
 const Career = () => {
@@ -23,6 +24,10 @@ const Career = () => {
     </Link>;
     const DisneyLogo = 
     <Link maxW="37%" href="https://disneyworld.disney.go.com" target="_blank">
+        <Image src="https://cloud.swrigdon.com/s/a3NdcgoCa8o77Y5/preview"/>
+    </Link>;
+    const DisneyLogo2 = 
+    <Link maxW="37%" href="https://disneyplus.com" target="_blank">
         <Image src="https://cloud.swrigdon.com/s/a3NdcgoCa8o77Y5/preview"/>
     </Link>;
     const NoCapLogo = 
@@ -57,6 +62,15 @@ const Career = () => {
                             Industry
                         </Text>
                     </Center>
+                    <hr />
+                    <Stack direction="column" paddingTop="2.5%">
+                        <Center>
+                            {DisneyLogo2}
+                        </Center>
+                        <Container>
+                            <DisneyText4 headingFontSize="1.5em" fontSize="1em"/>
+                        </Container>
+                    </Stack>
                     <hr />
                     <Stack direction="column" paddingTop="2.5%">
                         <Center>

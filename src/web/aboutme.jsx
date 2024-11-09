@@ -1,7 +1,6 @@
 import React from 'react';
 import {
     Container,
-    Text
 } from '@chakra-ui/react';
 import BodyText from '../components/AboutMe/bodyText';
 import GreetingText from '../components/AboutMe/greetingText';

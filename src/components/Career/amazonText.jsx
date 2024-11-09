@@ -7,15 +7,15 @@ const amazonText = (props) => {
     return(
         <React.Fragment>
             <Text fontSize={props.headingFontSize}>
-                Amazon - Software Development Engineer II (Sep 2022 - Present)
+                Amazon - Software Development Engineer II (Sep 2022 - Apr 2024)
             </Text>
             <br />
             <Text fontSize={props.fontSize}>
-                At Amazon, I am currently on the Flex Altitude Compliance team. Our goal is to maintain
+                While at Amazon, I was on the Flex Altitude Compliance team. Our goal was to maintain
                 legal compliance regarding Amazon Flex gig-work drivers in whatever geographic areas they
-                operate in. We have a serverless architecture hosted entirely in AWS using AWS products such as
+                operate in. We had a serverless architecture hosted entirely in AWS using AWS products such as
                 Lambda functions, DynamoDB tables, SQS queues, SNS topics, Glue jobs, and CloudFormation stacks.
-                I have used primarily Java at Amazon, though I have also used Python for reporting scripts, and
+                I used primarily Java at Amazon, though I also used Python for reporting scripts, and
                 TypeScript with the CDK and with a React UI we built for support agents to use when helping Flex drivers.
             </Text>
             <br />
