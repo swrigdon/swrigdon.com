@@ -63,7 +63,7 @@ const TopBar = () =>{
                             <Link
                                 target='_blank'
                                 _hover={{color: 'swrigdon.purple'}}
-                                href="https://docs.google.com/document/d/1vxK_5hi0gS5F5NQyiJArUymeh3hd_wBjEYYiusOcsXc/export?format=pdf"
+                                href="https://www.dropbox.com/scl/fi/z6w6jc4uwgochcf2bvymn/Stephen_Rigdon_Resume.pdf?rlkey=9u6h5r1efybntoz2qvr4039m4&st=os3wk9p0&dl=0"
                             >
                                 Resume
                             </Link>
