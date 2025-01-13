@@ -34,4 +34,4 @@ jobs:
       - name: Deploy Build
         run: cp -rf ./build ${{secrets.BOXY_WWW_DIRECTORY}}
       - name: Restart Container
-        run: docker restart swrigdon
+        run: sudo docker restart swrigdon
