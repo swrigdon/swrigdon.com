@@ -33,3 +33,5 @@ jobs:
         run: npm run build
       - name: Deploy Build
         run: cp -rf ./build ${{secrets.BOXY_WWW_DIRECTORY}}
+      - name: Restart Container
+        run: docker restart swrigdon
