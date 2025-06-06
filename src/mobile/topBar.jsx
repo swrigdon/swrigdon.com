@@ -69,7 +69,7 @@ const MobileNavBar = () => {
                             <MenuItem backgroundColor='swrigdon.black' color='white' href='https://www.github.com/swrigdon' as='a' target='_blank'>
                                 GitHub
                             </MenuItem>
-                            <MenuItem backgroundColor='swrigdon.black' color='white' href='mailto:swrigdon@gmail.com' as='a'>
+                            <MenuItem backgroundColor='swrigdon.black' color='white' href='mailto:me@swrigdon.com' as='a'>
                                 Email Me
                             </MenuItem>
                         </MenuList>

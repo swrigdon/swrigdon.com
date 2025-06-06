@@ -95,7 +95,7 @@ const TopBar = () =>{
                             <Link
                                 target='_blank'
                                 _hover={{color: 'swrigdon.purple'}}
-                                href='mailto:swrigdon@gmail.com'
+                                href='mailto:me@swrigdon.com'
                             >
                                 <FontAwesomeIcon icon={faEnvelope} size="2x"/>
                             </Link>
