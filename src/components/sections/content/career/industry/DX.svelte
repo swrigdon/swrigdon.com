@@ -15,6 +15,6 @@
                 The goal of my team was to provide solutions both from vendors and made in-house to assist thousands of phone
                 agents at the reservation centers that helped guests book everything including park visits, dining, hotel stays,
                 conventions, and cruises.`,
-        tags: null
+        tags: ['JavaScript', 'TypeScript', 'ExpressJS', 'React', 'SharePoint 2013', 'GitLab Runners']
     }
 )}

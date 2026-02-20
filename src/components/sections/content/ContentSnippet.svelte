@@ -23,7 +23,7 @@
                 {/if}
                 {#if text.tags}
                     <p class="text-xs mt-3">
-                        Tech & Tags: {text.tags} = ...
+                        Tech & Tags: {text.tags.reduce((prev, curr)=>prev ? `${prev}, ${curr}` : curr, '')}
                     </p>
                 {/if}
             </div>

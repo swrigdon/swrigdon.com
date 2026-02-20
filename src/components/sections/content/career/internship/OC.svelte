@@ -15,6 +15,6 @@
                 website and intranet portal. This was done primarily via HTML and CSS in the context of a
                 DNN CMS. I also tested and contributed to the new replacement intranet portal, which was
                 created in SharePoint 2013.`,
-        tags: null
+        tags: ['DotNetNuke', 'SharePoint 2013']
     }
 )}

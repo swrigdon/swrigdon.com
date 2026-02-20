@@ -14,6 +14,6 @@
         body: `NoCap was a Series A startup that focused on partnering with artists to livestream shows and create
                 virtual concerts born out of the pandemic. As a software engineer there, I spent much of my time developing
                 new APIs and refactoring and adding features to the main website.`,
-        tags: null
+        tags: ['JavaScript', 'TypeScript', 'Python', 'ExpressJS', 'Flask', 'MuxJS', 'BitMovin Player', 'React', 'GCP', 'Firestore']
     }
 )}

@@ -23,6 +23,6 @@
                 working on the proprietary HTML5/HLS Video Player supporting billions of streams on web browsers, Chromecast devices, 
                 and all browser-based living room devices such as numerous smart TV and set-top box brands across numerous 
                 Disney-owned platforms such as Disney+, ESPN, and ABC.`,
-        tags: null
+        tags: ['TypeScript', 'JavaScript', 'HLS', 'MSE', 'EME', 'GitHub Actions', 'S3']
     }
 )}

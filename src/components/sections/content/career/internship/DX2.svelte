@@ -18,6 +18,6 @@
                 GitLab Runners and Jenkins. During this internship I also wrote the Reservation Center's first
                 React applications, and created robust custom application templates to give my team's developers a codebase
                 to start upon.`,
-        tags: null
+        tags: ['JavaScript', 'TypeScript', 'Gitlab Runners', 'React', 'SharePoint 2013']
     }
 )}

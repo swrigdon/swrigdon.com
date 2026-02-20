@@ -15,6 +15,6 @@
                 legal compliance regarding Amazon Flex gig-work drivers in whatever geographic areas they
                 operated in. We achieved this with a number of proprietary solutions built on top of distributed, serverless
                 systems hosted in AWS.`,
-        tags: null
+        tags: ['AWS', 'DynamoDB', 'AWS Lambda', 'SQS', 'SNS', 'CDK', 'CloudFormation', 'S3', 'Athena', 'Java', 'TypeScript', 'React']
     }
 )}

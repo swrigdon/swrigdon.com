@@ -14,6 +14,6 @@
         body: `While an intern the first time at Disney, I worked for the Systems Integration team at the
                 Disney Reservation Center. My task was to develop and application to automate and enhance
                 the (very manual) process of onboarding and offboarding phone agents.`,
-        tags: null
+        tags: ['JavaScript', 'Nintex Workflows', 'SharePoint 2013']
     }
 )}
