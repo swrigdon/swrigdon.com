@@ -29,6 +29,6 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy Build
-        run: cp -rf ./build ${{secrets.BOXY_WWW_DIRECTORY}}
+        run: cp -r ./dist ${{secrets.BOXY_WWW_DIRECTORY}}
       - name: Restart Container
         run: echo ${{secrets.ACCOUNT_PASSWORD}} | sudo -S docker restart swrigdon
